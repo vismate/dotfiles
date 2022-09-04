@@ -4,7 +4,7 @@
  * Modified by: vismate
  *******************************************************/
 configuration {
-    font:				"Noto Sans Display Regular 12";
+    font:				"Noto Sans Display Regular 10";
     show-icons:				true;
     icon-theme:				"Papirus-Dark";
     display-drun:			"Apps";

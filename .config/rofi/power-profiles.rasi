@@ -5,7 +5,7 @@
  *******************************************************/
 
 configuration {
-    font:                           "Noto Sans Display Regular 12";
+    font:                           "Noto Sans Display Regular 10";
     show-icons:                     false;
     icon-theme: 					"Papirus-Dark";
     scroll-method:                  0;
