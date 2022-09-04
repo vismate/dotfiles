@@ -65,6 +65,10 @@ gaps outer 5
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Setup displays
+exec --no-startup-id ~/.screenlayout/monitor.sh
+
+
 # Disable focus following mouse
 focus_follows_mouse no
 
@@ -372,10 +376,6 @@ exec --no-startup-id dex --autostart --environment i3
 
 # start conky:
 #exec_always --no-startup-id conky
-
-# start a script to setup displays
-# uncomment the next line, use arandr to setup displays and save the file as monitor:
-exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 exec --no-startup-id sleep 2 && nitrogen --restore
