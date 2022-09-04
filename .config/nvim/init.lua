@@ -99,10 +99,10 @@ cmp.setup({
   -- Installed sources:
   sources = {
     { name = 'path' },                              -- file paths
-    { name = 'nvim_lsp', keyword_length = 3 },      -- from language server
+    { name = 'nvim_lsp', keyword_length = 1 },      -- from language server
     { name = 'nvim_lsp_signature_help'},            -- display function signatures with current parameter emphasized
-    { name = 'nvim_lua', keyword_length = 2},       -- complete neovim's Lua runtime API such vim.lsp.*
-    { name = 'buffer', keyword_length = 2 },        -- source current buffer
+    { name = 'nvim_lua', keyword_length = 1},       -- complete neovim's Lua runtime API such vim.lsp.*
+    { name = 'buffer', keyword_length = 3 },        -- source current buffer
 --  { name = 'vsnip', keyword_length = 2 },         -- nvim-cmp source for vim-vsnip 
     { name = 'calc'},                               -- source for math calculation
   },
@@ -162,7 +162,21 @@ require("nvim-tree").setup({
   },
 })
 
-require('todo-comments').setup()
+require('todo-comments').setup({
+    highlight = {
+      before = "", -- "fg" or "bg" or empty
+      keyword = "bg",-- "fg", "bg", "wide" or empty. (wide is the same as bg, but will also highlight surrounding characters)
+      after = "", -- "fg" or "bg" or empty
+      pattern = [[.*<(KEYWORDS)\s*:]], -- pattern or table of patterns, used for highlightng (vim regex)
+      comments_only = true, -- uses treesitter to match keywords in comments only
+      max_line_len = 400, -- ignore lines longer than this
+      exclude = {}, -- list of file types to exclude highlighting
+    },
+    
+    pattern = [[\b(KEYWORDS):]], -- ripgrep regex
+    -- pattern = [[\b(KEYWORDS)\b]], -- match without the extra colon. You'll likely get false positives
+    }
+)
 require('trouble').setup()
 
 local npairs = require("nvim-autopairs")
