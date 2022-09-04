@@ -22,7 +22,7 @@
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango: Noto Sans Display Regular 12
+font pango: Noto Sans Display Regular 10
 
 # set the mod key to the winkey:
 set $mod Mod4
@@ -174,7 +174,7 @@ bindsym $mod+r mode "resize"; exec notify-send 'Resize mode'
 ######################################
 
 # start a terminal
-set $launch_terminal exec LIBGL_ALWAYS_SOFTWARE=1 alacritty
+set $launch_terminal exec alacritty
 bindsym $mod+Return $launch_terminal 
 
 # kill focused window
@@ -506,7 +506,7 @@ client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 # Start i3bar to display a workspace bar
 # (plus the system information i3status finds out, if available)
 bar {
-		font pango: Noto Sans Display Regular 12, FontAwesome 12
+		font pango: Noto Sans Display Regular 10, FontAwesome 10
 		status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	    	position top
 #	    	i3bar_command i3bar --transparency
