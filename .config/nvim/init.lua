@@ -26,19 +26,17 @@ local rt = {
                 require 'illuminate'.on_attach(client)
             end,
             ["rust-analyzer"] = {
+                cargo = {autoReload = true},
                 checkOnSave = {
                     enable = true,
                     command = "clippy",
-                    extraArgs = {"-W", "clippy::padentic"}
+                    --extraArgs = {"-W", "clippy::pedantic"}
                 }, 
             },
         }
     },
 }
-local rust_tools = require('rust-tools')
-rust_tools.setup(rt)
-rust_tools.inlay_hints.set()
-rust_tools.inlay_hints.enable()
+require('rust-tools').setup(rt)
 
 -- LSP Diagnostics Options Setup 
 local sign = function(opts)
