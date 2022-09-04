@@ -1,0 +1,40 @@
+## Shell
+shell:
+  program: /usr/bin/nu
+
+## Font
+
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: medium
+  size: 12
+
+# Colors (Ayu Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#0D1017'
+    foreground: '#BFBDB6'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#D95757'
+    green:   '#AAD94C'
+    yellow:  '#FFB454'
+    blue:    '#39BAE6'
+    magenta: '#D2A6FF'
+    cyan:    '#59C2FF'
+    white:   '#F2F2F2'
+
+  # Bright colors
+  bright:
+    black:   '#ACB6BF'
+    red:     '#F07178'
+    green:   '#95E6CB'
+    yellow:  '#E6B673'
+    blue:    '#73B8FF'
+    magenta: '#D2A6FF'
+    cyan:    '#95CBE6'
+    white:   '#FFFFFF'
