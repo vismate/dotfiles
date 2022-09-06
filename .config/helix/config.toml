@@ -1,0 +1,20 @@
+theme = "ayu_dark"
+
+[editor]
+auto-completion = false
+cursorline = true
+completion-trigger-len = 2
+idle-timeout = 500
+
+[editor.cursor-shape]
+insert = "bar"
+
+[keys.insert]
+C-space = "completion"
+"esc" = ["normal_mode", ":w"]
+
+[keys.normal]
+"esc" = ["collapse_selection", ":w"]
+
+[keys.select]
+"esc" = ["collapse_selection", "normal_mode", ":w"]
