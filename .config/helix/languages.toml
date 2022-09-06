@@ -2,7 +2,7 @@
 name="rust"
 
 [language.config]
-checkOnSave = {command = "clippy"}
+checkOnSave = {command = "clippy", extraArgs = ["--", "-W", "clippy::pedantic"]}
 cargo = {allFeatures = true}
 procMacro = {enable = true }
 auto-format = true
