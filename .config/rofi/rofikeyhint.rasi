@@ -4,7 +4,7 @@
  * Modified by: vismate
  *******************************************************/
 configuration {
-    font:                           "Noto Sans Display Regular 10";
+    font:                           "Noto Sans Display Regular 12";
     show-icons:                     false;
 	icon-theme: 					"Papirus-Dark";
     display-drun: 					"KeyHint";
