@@ -12,6 +12,10 @@ insert = "bar"
 [keys.insert]
 C-space = "completion"
 "esc" = ["normal_mode", ":w"]
+"left" = "move_char_left"
+"right" = "move_char_right"
+"up" = "move_line_up"
+"down" = "move_line_down"
 
 [keys.normal]
 "esc" = ["collapse_selection", ":w"]
