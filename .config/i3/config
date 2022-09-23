@@ -24,7 +24,7 @@
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango: Noto Sans Display Regular 12
 
-# set the mod key to the winkey:
+# set the mod key to the alt key:
 set $mod Mod1
 
 #####################
@@ -47,7 +47,8 @@ workspace_layout default
 ##############################
 
 #border indicator on windows:
-new_window pixel 2
+# Deprecated way of setting border width, but since 4.21 only this hides title bars
+for_window [class="^.*"] border pixel 2
 
 # thin borders
 # hide_edge_borders both
