@@ -24,7 +24,7 @@
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango: Noto Sans Display Regular 10
 
-# set the mod key to the winkey:
+# set the mod key to the alt:
 set $mod Mod1
 
 #####################
@@ -47,7 +47,8 @@ workspace_layout default
 ##############################
 
 #border indicator on windows:
-new_window pixel 2
+# Deprecated way of setting border width, but since 4.21 only this hides title bars
+for_window [class="^.*"] border pixel 2
 
 # thin borders
 # hide_edge_borders both
@@ -57,10 +58,10 @@ gaps inner 5
 gaps outer 5
 
 # show window title bars (not officially supported with i3gaps)
-#default_border normal
+# default_border normal
 
 # window title alignment
-#title_align center
+# title_align center
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
