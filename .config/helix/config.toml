@@ -1,10 +1,10 @@
 theme = "ayu_dark"
 
 [editor]
-auto-completion = false
+auto-completion = true
 cursorline = true
 completion-trigger-len = 2
-idle-timeout = 500
+idle-timeout = 750
 
 [editor.cursor-shape]
 insert = "bar"
