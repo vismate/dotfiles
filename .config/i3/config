@@ -208,8 +208,8 @@ bindsym F1 exec ~/.config/i3/scripts/keyhint-2
 
 # Backlight control
 # Since brightness controll keys don't work on my specific laptop I'm using these mod key shortcuts
-bindsym $mod+F12 exec brightnessctl set +10% && notify-send "Brightness - $(xbacklight -get | cut -d '.' -f 1)%"
-bindsym $mod+F11 exec brightnessctl set 10%- && notify-send "Brightness - $(xbacklight -get | cut -d '.' -f 1)%"
+bindsym $mod+F12 exec brightnessctl set +5% && notify-send "Brightness - $(xbacklight -get | cut -d '.' -f 1)%"
+bindsym $mod+F11 exec brightnessctl set 5%- && notify-send "Brightness - $(xbacklight -get | cut -d '.' -f 1)%"
 
 # change focus
 bindsym $mod+h focus left
