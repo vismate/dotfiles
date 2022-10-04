@@ -5,6 +5,7 @@ auto-completion = true
 cursorline = true
 completion-trigger-len = 2
 idle-timeout = 750
+shell = ["nu", "-c"]
 
 [editor.cursor-shape]
 insert = "bar"
@@ -19,6 +20,8 @@ C-space = "completion"
 
 [keys.normal]
 "esc" = ["collapse_selection", ":w"]
+"C-d" = ":sh cargo run"
+"C-r" = ":sh cargo run --release"
 
 [keys.select]
 "esc" = ["collapse_selection", "normal_mode", ":w"]
