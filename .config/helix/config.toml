@@ -2,11 +2,13 @@ theme = "ayu_dark"
 
 [editor]
 auto-completion = true
+auto-save = true
 cursorline = true
 completion-trigger-len = 2
 idle-timeout = 750
 shell = ["nu", "-c"]
 line-number = "relative"
+bufferline = "multiple"
 
 [editor.cursor-shape]
 insert = "bar"
