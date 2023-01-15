@@ -48,14 +48,14 @@ workspace_layout default
 
 #border indicator on windows:
 # Deprecated way of setting border width, but since 4.21 only this hides title bars
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
 
 # thin borders
 # hide_edge_borders both
 
 # Set inner/outer gaps
 gaps inner 5
-gaps outer 5
+gaps outer 2
 
 # show window title bars (not officially supported with i3gaps)
 # default_border normal

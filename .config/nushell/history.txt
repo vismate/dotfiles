@@ -1721,3 +1721,10 @@ dotfiles status
 dotfiles commit -m "alacritty config formatting"
 dotfiles push
 hx alacritty.yml
+dotfiles add ~/.config/*
+dotfiles commit -m "alacritty config formatting"
+dotfiles push
+sudo bleachbit
+hx .config/i3/config
+i3-msg reload
+dotfiles commit -m -a "i3 smaller outer gamps and thinner border"
