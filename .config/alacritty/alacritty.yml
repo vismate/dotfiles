@@ -2,6 +2,7 @@
 shell:
   program: /usr/bin/nu
 
+
 ## Font
 
 font:

@@ -1716,3 +1716,8 @@ cd alacritty/
 ls
 hx alacritty.yml
 dotfiles status
+dotfiles add ~/.config/*
+dotfiles status
+dotfiles commit -m "alacritty config formatting"
+dotfiles push
+hx alacritty.yml
