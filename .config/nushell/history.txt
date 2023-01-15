@@ -1,0 +1,1701 @@
+nano .config/nushell/config.nu
+dotfiles status
+echo ".dotfiles" | save .gitignore
+git clone --bare https://github.com/vismate/dotfiles.git .dotfiles
+rm -rf .dotfiles/
+ls
+ls -a
+ rm .gitignore
+rm installed_packages.txt
+ls -a
+cd
+echo ".dotfiles" | save .gitignore
+git clone --bare https://github.com/vismate/dotfiles.git .dotfiles
+ls
+ls -a
+ls -a .dotfiles/
+dotfiles checkout
+dotfiles checkout | drop 1
+dotfiles checkout | drop 0
+dotfiles checkout | lines
+dotfiles checkout | lines | drop nth 0
+dotfiles checkout | lines | drop nth 1
+dotfiles checkout | lines | grep ".config*"
+dotfiles checkout | grep ".config*"
+dotfiles checkout | grep "*.config*"
+nano todelete.txt
+ls
+open todelete.txt | rm
+cat todelete.txt | rm
+cat todelete.txt | rm -
+rm (cat todelete.txt)
+rm $"(cat todelete.txt)"
+dotfiles checkout
+dotfiles config --local status.showUntrackedFiles no
+dotfiles status
+reboot
+nvim
+nvim .config/nvim/lua/plug.lua
+nvim .config/nvim/init.lua
+nvim
+nvim .config/i3/config
+nvim .config/alacritty/alacritty.yml
+nvim .config/i3/i3blocks.conf
+nano .config/i3/i3blocks.conf
+dotfiles status
+dotfiles branch desktop-eos-i3
+dotfiles status
+dotfiles checkout -b desktop-eos-i3
+dotfiles status -b desktop-eos-i3
+dotfiles commit -a  -b desktop-eos-i3 -m "adapted dotfiles for desktop"
+git --help
+dotfiles switch desktop-eos-i3
+dotfiles status
+dotfiles commit -a -m "adapted dotfiles for desktop"
+git config --global user.email "visnyarmate@gmail.com"
+git config --global user.name "vismate"
+dotfiles commit -a -m "adapted dotfiles for desktop"
+dotfiles push
+dotfiles push --set-upstream origin desktop-eos-i3
+dotfiles status
+rustup toolchain install nightly
+sudo timeshift
+sudo timeshift-gtk
+systemctl status cron
+systemctl status cronie
+systemctl enable cronie
+systemctl start cronie
+systemctl status cronie
+neofetch 
+dotfiles status
+nvim .config/rofi/config.rasi
+nvim .config/rofi/powermenu.rasi
+nvim .config/rofi/rofidmenu.rasi
+nvim .config/rofi/rofikeyhint.rasi
+nvim .config/rofi/power-profiles.rasi
+dotfiles status
+dotfiles commit -a -m "changed rofi font size"
+dotfiles push
+fdisk
+fdisk --help
+fdisk --help -l
+fdisk -l
+sudo -s
+ls
+cd Development/
+ls
+cd soft/
+cargo run --release
+cargo clean
+bleachbit
+dotfiles status
+nvim
+cd Development/
+cd pinplot/
+ls
+nvim .
+htop
+cd ..
+cargo new test_program
+cd test_program/
+cd Development/test_program/cargo clippy
+cd Development/test_program/cargo 
+cd Development/test_program/
+cargo clippy
+cargo clippy -- -W clippy::pedantic
+nvim .
+rustfmt
+cargo rustfmt
+cd
+cd .cache/nvim
+nano lsp.log
+nvim .
+nano lsp.log
+ls
+cd log
+nano lsp.log
+nvim .
+ls
+ls -a
+cd .cache/nvim
+nano lsp.log
+cd ..
+ls
+cd vismate/
+ls
+ls -a
+nvim .
+nvim .config/nvim/init.lua
+nvim .config/nvim/lua/opts.lua
+nvim .config/nvim/lua/plug.lua
+cd .cache/nvim
+nano lsp.log
+rustup component add clippy
+notify-send 
+notify-send "asd"
+nvim .
+dotfiles status
+dotfiles commit -a -m "nvim init change"
+dotfiles push
+nvim .config/i3/config
+dotfiles commit -a -m "set modkey to alt for better ergonomics"
+dotfiles push
+ls /dev
+bleachbit
+sudo bleachbit
+sudo pacman -R xfce-terminal
+sudo pacman -R xfce4-terminal
+sudo pacman -R xfce4-terminal endeavouros-xfc4-terminal-colors
+sudo pacman -R xfce4-terminal endeavouros-xfce4-terminal-colors
+sudo pacman -R xterm
+sudo pacman -Qtdq | sudo pacman -Rns -
+reboot
+nvim .config/i3/config
+nvim .screenlayout/default.sh
+cd .screenlayout/
+ls
+mv default.sh monitor.sh
+reboot
+systemctl reboot --firmware-setup
+nano .screenlayout/monitor.sh
+nano .config/i3/config
+dotfiles status
+dotfiles commit -a -m "monitor config fixes"
+dotfiles push
+nano .config/i3/config
+reboot
+dotfiles commit -a -m "monitor config fixes"
+dotfiles push
+nano .config/i3/config
+reboot
+dotfiles commit -a -m "workspace config fixes"
+dotfiles push
+cd Development/
+rm -rf test_program/
+ls
+cd pinplot
+nvim
+cd Development/pinplot/
+sudo chmod a+rw /dev/ttyACM0
+cargo run --release
+nvim .
+sudo pacman -S steam
+cd ..
+cd mnt
+ls
+yay -S ntfix-git
+sudo fdisk -l
+mkdir sdc1
+sudo mkdir sdc1
+ls
+sudo -s
+ls
+cd sdc1
+ls
+bleachbit
+sudo bleachbit
+dotfiles status
+cargo run --release
+sudo chmod a+rw /dev/ttyACM0
+cargo run --release -- -ports
+cargo run --release -- --ports
+cargo run --release -- --available_orts
+cargo run --release -- --help
+cargo run --release -- --ports
+cargo run --release -- ports
+cargo run --release -- baud_rates
+cargo run --release -- baud-rates
+ls -l /bin/sh
+ls -l /usr/bin/sh
+nvim
+yay -S helix-git
+rustup --defualt
+rustup toolchain --defualt
+rustup defualt
+rustup default
+rustup list
+rustup show
+rustup toolchain remove stable
+rustup toolchain remove 1.16.0
+rustup toolchain remove 1.61.0
+rustup component remove rust-analyzer
+rustup component remove rust_analyzer
+yay -S rust-analyzer-git
+rustup show
+sudo pacman -Qtdq | sudo pacman -Rns -
+bleachbit
+cargo clean
+sudo bleachbit
+hx --healt
+hx --health
+hx --grammar
+hx --grammar fetch
+sudo hx --grammar fetch
+sudo hx --grammar build
+cd Development/pinplot/
+cd Development/pinplot/
+ls -a
+hx .
+cd Development/pinplot/
+hx .
+cd ..
+cargo new test_program
+cd test_program/
+cd ../test_program/
+cargo run
+hx .
+nano ~/.config/helix/config.toml
+hx .
+nano ~/.config/helix/config.toml
+hx .
+nano ~/.config/helix/config.toml
+hx .
+dotfiles status
+dotfiles add ~/.config/
+dotfiles status
+rm ~/.config/example.picom.conf
+dotfiles status
+dotfiles add ~/.config/
+dotfiles status
+dotfiles rm ~/.config/nushell/history.txt
+dotfiles rm --cached ~/.config/nushell/history.txt
+dotfiles rm --cached ~/.config/nushell/history.txt -f
+dotfiles status
+yay -R nvim-packer-git nvim
+yay -R nvim-packer-git neovim
+rm -rf ~/.config/nvim/
+dotfiles status
+dotfiles commit -a -m "replaced nvim with helix"
+dotfiles push
+touch src/mymod.rs
+cargo run
+hx .
+dotfiles status
+dotfiles commit -a -m "helix: set clippy to pedantic"
+dotfiles push
+cd ..
+rm -rf test_program/
+ls
+cd pinplot/
+helix
+hx .config/nushell/config.nu
+hx .config/nushell/env.nu
+ls
+hx .config/nushell/env.nu
+hx .config/helix/config.toml
+dotfile status
+dotfiles status
+dotfiles commit -a -m "nushell promt date formatting changed"
+dotfiles push
+cd Development/pinplot/
+hx .
+cd ..
+ls
+cd Development/
+cargo new esrap
+cd esrap/
+cd Development/
+cd esrap/
+cargo run
+cd esrap/
+cargo run
+cargo expand
+cargo install cargo-expand
+cargo expand
+cargo install cargo-expand
+cargo run
+cargo install cargo-expand
+cargo run
+cd ..
+cargo new --lib funparsec
+hx .
+cd ../funparsec/
+rm -rf esrap/
+ls
+cargo test
+cd funparsec/
+cargo test
+dotfiles status
+sudo hx /etc/fstab
+hx .
+dotfiles statsus
+dotfiles status
+cd Development/funparsec/
+cd Development/funparsec/
+cargo test
+cargo test -- --no-capture
+cargo test  --no-capture
+cargo test -- --nocapture
+cargo test
+rustc --explain E0207
+cd Development/funparsec/
+cargo test
+cargo test -- --nocapture
+cd Development/funparsec/
+.hx
+cd Development/funparsec/
+cargo test
+sudo bleachbit
+cargo test
+sudo bleachbit
+cargo test
+cd ..
+rm -rf funparsec/
+ls -a
+type
+file 
+file .directory
+hx .directory
+rm .directory
+ls -a
+dotfiles status
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo bleachbit
+yay -R ntfix steam
+yay -R ntfix-git steam
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo bleachbit
+sudo pacman -Qtdq | sudo pacman -Rns -
+yay -Qtdq | yay -Rns -
+htop
+cd Development/
+ls
+ssh
+ssh --help
+ssh -help
+ssh -b caesar.elte.hu
+ssh caesar.elte.hu
+ssh caesar.elte.hu -l vismat
+dotfiles status
+cd Development/
+cargo new genetic
+cd genetic
+cd Development/genetic/
+cargo run
+cargo clippy fix
+cargo clippy --fix
+cargo clippy fix
+cargo run
+cargo run --release
+hx .
+cd ..
+rm -rf genetic/
+ls
+sudo pacman -S steam
+yay -S ntfix-git
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo bleachbit
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo bleachbit
+ls -la
+dotfiles status
+sudo bleachbit
+history
+history | grep save
+neofetch 
+pacman -Qe
+pacman -Qe | grep ntfix
+pacman -Qe | save packages.txt
+hx packages.txt
+rm packages.txt
+ls
+yay -Qqen
+yay -Qqen | save packages.txt
+hx packages.txt
+rm packages.txt
+pacman -Qqen | save packages.txt
+hx packages.txt
+rm packages.txt
+pacman -Qqe | save packages.txt
+hx packages.txt
+rm packages.txt
+config env
+cd Downloads/
+ls
+cp Recordings(2).zip Analizis-EA-Old.zip
+ls
+rs Recordings(2).zip
+rm Recordings(2).zip
+ls
+rustup update
+sudo bleachbit
+cd Documents/
+pacman -Qqe | save pkglist.txt
+ls
+yay
+sudo fdisk -l
+cd /mnt
+ls
+cd sdc1
+ls
+cd ../sdb1/
+ls
+cd ~
+sudo hx /etc/fstab
+sudo -s
+ntfsfix
+ntfsfix /dev/sdb
+sudo ntfsfix /dev/sdb
+chkdsk /dev/sdb
+sudo ntfsfix /dev/sdb1
+sudo ntfsfix -n /dev/sdb1
+sudo ntfsfix -b /dev/sdb1
+sudo ntfsfix -d /dev/sdb1
+chkdsk
+cd /mnt
+ls
+sudo ntfsfix  /dev/sdb1
+cd
+sudo mkfs.btrfs /dev/sdb1
+sudo rm -rf /mnt/sdb1/
+sudo hx /etc/fstab
+hx
+dotfiles status
+dotfiles commit -a -m "helix insert mode arrows"
+dotfiles push
+yay 
+sudo pacman -S testdisk
+testdisk
+ntfsfix /dev/sdb
+ntfsfix /dev/sdb1
+sudo pacman -R testdisk
+sudo pacman -S recuva
+yay -S recuva-git
+yay -S recuva
+ntfsfix /dev/sdb1
+sudo bleachbit
+hx lea01.html
+firefox lea01.html
+rm lea01.html
+hotp
+sudo -S
+fdisk -l
+mount -t ntfs /dev/sdc1 /home/vismate/Videos
+sudo mount -t ntfs /dev/sdc1 /home/vismate/Videos
+ntfsfix /dev/sdc1
+dotfiles status
+sudo bleachbit
+cd Downloads/
+ls -a
+firefox thumbnail_image.png
+rm thumbnail_image.png
+yay -R rust-analyzer-git
+rustup toolchain list
+rutup update
+rustup update
+rustup component add rust_analyzer
+rustup component add rust-analyzer
+hx --health
+rust-analyzer
+rust_nalyzer
+rust_analyzer
+rustup component remove rust-analyzer
+rustup toolchain list
+yay -S rust-analyzer-git
+hx --health
+sudo bleachbit
+dotfiles status
+cd /mnt
+ls
+sudo rm -rf /mnt/sdc1/
+sudo pacman -S firefox
+sudo pacman --help
+sudo pacman -U
+sudo pacman -U firefox
+yay
+hx .config/i3/config
+dotfiles status
+git commit -a -m "Fixed i3 config for 4.21"
+dotfiles commit -a -m "Fixed i3 config for 4.21"
+dotfiles status
+dotfiles push
+sudo bleachbit
+notify-send 
+notify-send --help
+notify-send -v
+cd .config/
+cdd dunst/
+cd dunst/
+ls
+notify-send Test
+killall dunst
+notify-send Test
+killall dunst
+notify-send Test
+notify-send --hrlp
+notify-send --help
+notify-send -u critical Test
+notify-send -u low Test
+notify-send -u normal Test
+hx dunstrc
+cd ..
+dotfiles status
+dotfiles commit -a -m "Dunst config ayu theme"
+dotfiles push
+dotfiles status
+dotfiles commit -a -m "i3 window indicator color change"
+dotfiles push
+notify-send -u normal Test
+hx fajl
+cat fajl
+ls
+rm fajl
+ls
+hx fajl
+cat fajl
+ls
+rm fajl
+ls
+hx
+dotfiles stat
+dotfiles status
+dotfiles commit -a -m "turned helix autocomplete on"
+dotfiles push
+cd Development/
+ls
+cd pinplot/
+cargo run --release
+cd target
+ls
+cd release
+ls
+sudo chmod a+rw /dev/ttyACM0
+./pinplot
+cd ..
+ls
+cd src
+ls
+sudo bleachbit
+pacman -Q nushell
+echo "hello" | echo "world"
+echo "hello" && echo "world"
+echo "hello" & echo "world"
+echo "hello"; echo "world"
+echo "hello"; echo "world"; hx --version
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+which reboot
+which reboot | file
+file | which reboot
+which reboot | file
+which reboot | echo
+which reboot | file
+which reboot | first
+which reboot 
+which reboot | path
+which reboot | get path
+which reboot | get path.0
+which reboot | get path.0 | file
+which reboot | get path.0 
+file ${which reboot | get path.0}
+file (which reboot | get path.0)
+sudo bleachbit
+rustup update
+sudo bleachbit
+hx
+dotfiles status
+dotfiles commit -a -m "helix cargo run"
+dotfiles push
+RYIT
+wait
+sleep 4
+sleep 
+sleep --help
+sleep 1sec
+neofetch
+neofetch --help
+neofetch --loop
+neofetch 
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+sudo pacman -Qtdq | sudo pacman -Rns -
+cd Downloads/
+unzip anal.zip
+ls
+cd Development/
+ks
+ls
+cd soft/
+cargo run --release
+update
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+hx --version
+cd Development/
+ls
+cargo new elme-rs
+cd elme-rs/
+cd Development/
+cd elme-rs/
+cargo run
+hx .
+cd ..
+rm -rf elme-rs/
+cd Development/
+cargo new elme-rs
+cd elme-rs/
+cd Development/
+rm -rf elme-rs/
+ls
+cd Downloads/
+vlc `PT'2022 - 06. GUI eseménykezelés.mkv`; rm `PT'2022 - 06. GUI eseménykezelés.mkv`
+ls
+rm NodeGraphCalculator.zip
+ls
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo pacman -Qtdq
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+fetch
+fetch --help
+^ls
+ls
+sys
+sys 
+sys | table
+sys | table expand
+sys | table --expand
+cd Downloads/
+ls
+rm An1-Ea02-2022osz.pdf
+ls
+nu --help
+nu config
+config env
+config 
+config nu
+dotfile status
+dotfiles status
+dotfiles commit -a -m "nushell 0.70 conf fix"
+dotfiles push
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+cd Development/
+ls
+cd soft
+cargo run
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+rustup toolchain list
+sudo bleachbit
+cd Development/
+cargo new --lib viscode
+cd viscode/
+cd Development/viscode/
+cargo test
+cargo test -- --nocapture
+cd ..
+rm -rf viscode/
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+cd Development/
+ls
+cd pinplot/
+cd Development/pinplot/
+cargo run --release
+hx .
+cargo run --release
+cd Development/pinplot/
+sudo chmod a+rw /dev/ttyACM0
+cargo run --release
+cargo flamegraph
+cargo install flamegraph
+cargo flamegraph
+sudo pacman -S perf
+cargo flamegraph
+firefox flamegraph.svg
+cargo run --release
+cd Development/pinplot/
+ls
+cd src
+ls
+hx serial_interface.rs
+cd ..
+cd Development/pinplot/
+cargo run --release
+ls /dev
+cargo run --release
+hx .
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+cd Development/pinplot/
+cargo run --release
+sudo chmod a+rw /dev/ttyACM0
+cd Development/pinplot/
+cargo run --release
+dotfiles status
+dorfiles status
+dotfiles status
+dotfiles add ~/.config/helix/config.toml
+dotfiles status
+dotfiles commit -m "helix relative line numbers"
+dotfiles push
+cargo run --release
+cd Development/pinplot/
+sudo chmod a+rw /dev/ttyACM0
+cargo run --release
+cd Development/pinplot/
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+sudo pacman -Qtdq
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+rustup toolchain list
+cd Downloads/
+ls
+rm 72_Sample_Chapter.pdf
+rm doc-2.pdf
+rm euclidean(1).ipynb
+rm algo2-gyak.pdf
+ls
+rm euclidean.ipynb
+ls
+rm 1_Beadandó.pdf
+ls
+rm Minta_ZH1.pdf
+ls
+file Y17B_C1-hostm-190.EXE
+cat Y17B_C1-hostm-190.EXE
+cd Downloads/
+open Y17B_C1-hostm-190.EXE | find 2310
+open Y17B_C1-hostm-190.EXE | grep 2310
+cat Y17B_C1-hostm-190.EXE | grep 2310
+cat Y17B_C1-hostm-190.EXE | grep 2312
+cat Y17B_C1-hostm-190.EXE | grep 2310
+cd Downloads/
+rm Y17B_C1-hostm-190.EXE
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+cd Downloads/
+ls
+cd ..
+cd Development/
+ls
+cd pinplot/
+sudo chmod a+rw /dev/ttyACM0
+cd Development/pinplot/
+cargo run --release
+cd Development/pinplot/
+hx .
+cd src/
+mv serial_interface.rs serial_parser.rs
+cd ..
+cd Development/pinplot/
+cargo run --release
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+rustup toolchain list
+cd Development/pinplot/
+cargo run --release
+ Result<&mut T, String>
+cargo run --release
+sudo pacman -S cups
+yay hll2310d
+sudo pacman -S poppler-data
+sudo yay popler-data
+yay poppler-data
+pacman -Syu
+sudo pacman -Syu
+yay poppler-data
+yay hll2310d
+systemctl enable cups.service
+systemctl start cups.service
+sudo bleachbit
+cd Development/pinplot/
+cargo run --release
+sudo chmod a+rw /dev/ttyACM0
+cargo run --release
+cd Development/pinplot/
+cargo run --release
+cd Development/pinplot/
+cargo run --release
+cd Development/pinplot/
+cargo run --release
+cd Development/pinplot/
+cargo run --release
+cd Development/pinplot/
+cargo run --release
+cd Development/pinplot/
+cargo run --release
+lp --help
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+sudo pacman -Qtdq
+cd Development/
+cargo new --lib finally
+cd finally/
+cd Development/finally/
+cargo test
+cd ..
+rm -rf finally/
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+rustup toolchain list
+sudo bleachbit
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+rustup toolchain list
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+hx -v
+hx --version
+rustup toolchain list
+sudo pacman -Qtdq
+sudo bleachbit
+hx --version
+nu --version
+cd Development
+ls
+cd pinplot/
+dorfiles status
+dotfiles status
+dotfiles diff .config/dconf/user main
+dotfiles diff .config/dconf/user desktop-eos-i3
+dotfiles diff .config/dconf/user
+diff --git a/.config/dconf/user b/.config/dconf/user
+cd Development/pin
+cd Development/pinplot/
+sudo pacman -S starship
+$nu.env-path
+hx $nu.env-path
+hx $nu.config-path
+hx $nu.env-path
+starsip
+starship
+ config set prompt "starship prompt" 
+config nu
+config --help
+sudo pacman -R starship
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo bleachbit
+cd Docu
+cd Documents/
+ls
+hx anal1-ev2-teltelek-roviden.md
+pandoc 
+sudo pacman -S pandoc
+hx anal1-ev2-teltelek-roviden.md
+rm anal1-ev2-teltelek-roviden.md
+ls
+sudo bleachbit
+cd Development/
+ls
+cd arduino-lcd/
+ls
+hx rust-toolchain.toml
+cd src/
+cd Development/
+cargo new ascii-cube
+cd ascii-cube/
+cd Development/ascii-cube/
+cargo run
+hx .
+cd ..
+rm -f ascii-cube/
+rm -rf ascii-cube/
+ls
+cd Development/
+cargo new --lib olc-pge
+cd olc-pge/
+hx .
+cd ..
+rm -rf olc-pge/
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+hx --version
+cd Development/
+cargo new symph
+cd symph/
+ls
+hx .
+cd ..
+rm -rf symph/
+cd Development/
+ls
+cd Development/
+cargo new --lib patmatch
+cd patmatch/
+hx .
+cd ..
+rm -rf patmatch/
+cargo new patmatch
+cs patmatch/
+hx .
+cd patmatch/
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cd ..
+rm -rf patmatch/
+trash-restore
+cd /local
+cd /.local
+cd Development/
+cargo new patmatch
+cd patmatch/
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+ls
+mv kmp.rs src/kmp.rs
+hx .
+ls
+cd src/
+ls
+hx .
+cd ..
+cargo run
+hx .
+cargo run
+cargo run --release
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+hx .
+cargo run 
+cargo run --release
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+} else {<\n>            false<\n>        }
+hx .
+} else {<\n>            false<\n>        }
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+cargo run
+cd Downloads/
+vlc `PT'2022 - 11. Dinamikus modell, állapotdiagram, szekvenciadiagram.mkv`; rm `PT'2022 - 11. Dinamikus modell, állapotdiagram, szekvenciadiagram.mkv`
+cd ..
+cd Development/
+cd patmatch/
+cargo run
+cd Development/
+cargo new AlgoGraph
+cd AlgoGraph/
+hx .
+cd ..
+rm -rf AlgoGraph/
+cargo new algo_graph
+cd algo_graph/
+cd Development/
+cd algo_graph/
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+cd Development/
+cd algo_graph/
+cd Development/algo_graph/
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+cargo expand
+cargo asm
+cargo --list
+cargo config
+cargo install TheBook
+cargo install thebook
+thebook rc
+cargi --list
+cargo --list
+config --help
+cargo --list
+cargo thebook
+config env
+ls
+thebook rc
+cargo uninstall thebook
+cargo uninstall mdbook
+config env
+cd Development/algo_graph/
+ls
+ls -a
+git status
+hx .gitignore
+git add .
+git commit -m "BFS, DFS, Kruskal, QBF"
+cargo run
+git remote add origin https://github.com/vismate/algo_graph.git
+git push -u origin main
+git push 
+git push --set-upstream origin main
+git switch main
+git pull
+git status
+ls
+cd src
+ls
+hx main.rs
+cd ..
+git add .
+git status
+git branch --list
+git switch main
+git status
+git push
+git add .
+git status
+ls -a
+git stash
+git switch master
+ls
+cargo run
+git stash
+git status
+git add .
+git status
+cd ..
+rm -rf algo_graph/
+git clone https://github.com/vismate/algo_graph.git
+cd algo_graph/
+cargo run
+git status
+ls -a
+hx .gitignore
+cd ../patmatch/
+hx .gitignore
+cd ../algo_graph/
+hx .gitignore
+git status
+git add .gitignore
+git status
+git commit -m "add .gitignore"
+git push
+cd Development/algo_graph/
+hx .
+cargo fmt
+hx .
+cargo fmt
+hx .
+cargo run
+touch src/bfs.rs
+touch src/dfs.rs
+touch src/kruskal.rs
+touch src/qbf.rs
+touch src/graph.rs
+hx .
+cargo run
+hx .
+cargo run
+git status
+git add src/*
+git status
+git commit -m "defined return types and restructuring"
+git push
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+cd Development/algo_graph/
+git pull
+cargo run
+rustup toolchain list
+$env.config | do { { ls: { use_ls_colors: $in.use_ls_colors clickable_links: $in.show_clickable_links_in_ls } rm: { always_trash: $in.rm_always_trash } cd: { abbreviations: $in.cd_with_abbreviations } table: { mode: $in.table_mode index_mode: $in.table_index_mode trim: $in.table_trim } history: { max_size: $in.max_history_size sync_on_enter: $in.sync_history_on_enter file_format: $in.history_file_format } completions: { case_sensitive: $in.case_sensitive_completions quick: $in.quick_completions partial: $in.partial_completions algorithm:$in.completion_algorithm external: { enable: $in.enable_external_completion max_results: $in.max_external_completion_results completer:$in.external_completer } } } } | to nuon | str substring 1..-1
+$env.config | do { { ls: { use_ls_colors: $in.use_ls_colors clickable_links: $in.show_clickable_links_in_ls } rm: { always_trash: $in.rm_always_trash } cd: { abbreviations: $in.cd_with_abbreviations } table: { mode: $in.table_mode index_mode: $in.table_index_mode trim: $in.table_trim } history: { max_size: $in.max_history_size sync_on_enter: $in.sync_history_on_enter file_format: $in.history_file_format } completions: { case_sensitive: $in.case_sensitive_completions quick: $in.quick_completions partial: $in.partial_completions algorithm:$in.completion_algorithm external: { enable: $in.enable_external_completion max_results: $in.max_external_completion_results completer:$in.external_completer } } } }
+$env.config | do { { } rm: { always_trash: $in.rm_always_trash } cd: { abbreviations: $in.cd_with_abbreviations } table: { mode: $in.table_mode index_mode: $in.table_index_mode trim: $in.table_trim } history: { max_size: $in.max_history_size sync_on_enter: $in.sync_history_on_enter file_format: $in.history_file_format } completions: { case_sensitive: $in.case_sensitive_completions quick: $in.quick_completions partial: $in.partial_completions algorithm:$in.completion_algorithm external: { enable: $in.enable_external_completion max_results: $in.max_external_completion_results completer:$in.external_completer } } } }
+$env.config | do { { ls: { use_ls_colors: $in.use_ls_colors clickable_links: $in.show_clickable_links_in_ls } rm: { always_trash: $in.rm_always_trash } cd: { abbreviations: $in.cd_with_abbreviations } table: { mode: $in.table_mode index_mode: $in.table_index_mode trim: $in.table_trim } history: { max_size: $in.max_history_size sync_on_enter: $in.sync_history_on_enter file_format: $in.history_file_format } completions: { case_sensitive: $in.case_sensitive_completions quick: $in.quick_completions partial: $in.partial_completions algorithm:$in.completion_algorithm external: { enable: $in.enable_external_completion max_results: $in.max_external_completion_results completer:$in.external_completer } } } } | to nuon | str substring 1..-1
+$env.config | do { { ls: { use_ls_colors: $in.use_ls_colors clickable_links: true } rm: { always_trash: $in.rm_always_trash } cd: { abbreviations: $in.cd_with_abbreviations } table: { mode: $in.table_mode index_mode: $in.table_index_mode trim: $in.table_trim } history: { max_size: $in.max_history_size sync_on_enter: $in.sync_history_on_enter file_format: $in.history_file_format } completions: { case_sensitive: $in.case_sensitive_completions quick: $in.quick_completions partial: $in.partial_completions algorithm:$in.completion_algorithm external: { enable: $in.enable_external_completion max_results: $in.max_external_completion_results completer:$in.external_completer } } } } | to nuon | str substring 1..-1
+$env.config
+config env
+config
+config nu
+dotfiles status
+dotfiles commit -m -a "new nu config format"
+dotfiles commit -a -m "new nu config format"
+dotfiles push
+cd Development/algo_graph/
+git pull
+cargo r
+./target/debug/algo_graph
+cat graph.dot
+hx .
+cargo r
+git status
+git add src/*
+git status
+git add Cargo.toml
+git status
+git commit -m "turned project into lib + bin"
+mkdir examples
+cd examples
+cd ..
+hx .
+cd src/
+rm main.rs
+cd ..
+cargo r --example save_to_dot
+cat graph.dot
+hx .
+hx .gitignore
+git status
+git add src/*
+git add examples/*
+git add Cargo.lock
+git status
+git add Cargo.toml
+git rm src/main.rs
+git status
+cargo r --example save_to_dot
+cat graph.dot
+hx .
+git status
+git add examples/*
+git status
+cat graph.dot
+hx .
+git add examples/*
+git status
+cargo r --example save_to_dot
+cat graph.dot
+git status
+git commit -m "turned project into lib with examples"
+cargo r --example bfs
+cargo r --example dfs
+cargo r --example dfs 2>/dev/null
+bash
+cargo r --example kruskal
+cd Development/algo_graph/
+cargo r
+cargo r -e 
+cargo r --example qbf
+cargo r --example kruskal
+cargo r --example dfs
+cargo r --example dijkstra
+cat graph.dot
+hx .
+hx --version
+git status
+git add src/*
+git status
+git commit -m "added panic messege when trying to label more than 26 nodes"
+git status
+cargo r --example save_to_dot; cat graph.dot
+cd Development/algo_graph/
+git status
+cargo r --example dagshp
+hx .
+git status
+git add src/bfs.rs
+git add src/dagshp.rs
+git add src/dfs.rs
+git add src/dijkstra.rs
+git add src/prim.rs
+git add src/qbf.rs
+git status
+hx .
+git status
+git commit -m "made output structs' fields public"
+git status
+hx .
+cargo r --example bfs
+ls
+cat bfs_output.dot
+hx .
+cargo r --example bfs
+cat bfs_output.dot
+hx .
+cargo r --example bfs
+cat bfs_output.dot
+git status
+git add src/dot_impl.rs
+git add examples/bfs.rs
+git status
+git commit -m "implemented dot rendering for BFSOutput, modified bfs example to save result to .dot file"
+git status
+hx .
+cargo r --example dfs
+cat dfs_output.dot
+hx .
+git status
+git add examples/dfs.rs
+git add src/dot_impl.rs
+git status
+git commit -m "implemented dot rendering for DFSOutput, modified dfs example to save result to .dot file"
+cat dfs_output.dot
+cargo r --example dfs
+cat dfs_output.dot
+cargo r --example dfs
+time
+cargo r --example dfs
+cat dfs_output.dot
+ls src
+git status
+hx .
+git status
+hx .
+git status
+hx .
+cargo r --example kruskal
+hx .
+cargo r --example kruskal
+git status
+git add src/kruskal.rs
+git status
+git commit -m "newtyped kruskal output"
+hx .
+git add src/kruskal.rs
+git commit -m "made kruskal output field public"
+git status
+hx .
+cargo r --example kruskal
+cat kruskal.dot
+hx .
+cargo r --example kruskal
+cat kruskal.dot
+git status
+git add examples/kruskal.rs
+git add src/dot_impl.rs
+git commit -m "implemented dot rendering for KruskalOutput, modified kruskal example to save result to .dot file"
+hx .
+cargo r --example prim
+cat prim.dot
+hx .
+cargo r --example prim
+cat prim.dot
+git status
+git add examples/prim.rs
+git add src/dot_impl.rs
+git commit -m "implemented dot rendering for PrimOutput, modified prim example to save result to .dot file"
+hx .
+cargo r --example dijkstra
+cat dijkstra.dot
+git status
+git add src/dot_impl.rs
+git add examples/dijkstra.rs
+git status
+git commit -m "implemented dot rendering for DijkstraOutput, modified dijkstra example to save result to .dot file"
+git status
+hx .
+git status
+git add src/dagshp.rs
+git commit -m "made DAGshPResult public"
+git status
+hx .
+cat dijkstra.dot
+cargo r --example dijkstra
+cat dijkstra.dot
+hx .
+cargo r --example dagshp
+cat dagshp.dot
+hx .
+git status
+git add examples/dagshp.rs
+git add src/dot_impl.rs
+git commit -m "implemented dot rendering for DAGshPOutput, modified dagshp example to save result to .dot file"
+hx .
+cargo r --example dagshp
+hx .
+cargo r --example dagshp
+hx .
+cargo r --example dagshp
+hx .
+cargo r --example dagshp
+git status
+git commit -m "fixed dagshp example, now starts from correct vertex"
+git add examples/dagshp.rs
+git commit -m "fixed dagshp example, now starts from correct vertex"
+git status
+cat dagshp.dot
+hx .
+cat dagshp.dot
+cargo r --example dagshp
+cat dagshp.dot
+cargo r --example qbf
+hx .
+git status
+git add src/qbf.rs
+git commit -m "added pi to qbf error"
+hx .
+cargo r --example qbf
+cat qbf.dot
+git status
+git add examples/qbf.rs
+git add src/dot_impl.rs
+git status
+git commit -m "implemented dot rendering for QBFOutput, modified qbf example to save result to .dot file"
+git status
+git push
+cd Development/algo_graph/
+git pull
+hx .
+rm *.dot
+ls
+cargo r --example qbf
+ls
+rm *.dot
+git status
+sudo bleachbit
+ls /run/timeshift/
+cd /dev/sda2
+cd /dev/
+ls
+cd sda
+cd
+cd /run
+ls
+cd timeshift/
+ls
+sudo timeshift --list
+cd /run/timeshift/
+sudo timeshift --list
+sudo bleachbit
+cd Development/algo_graph/
+cd examples/
+rm save_to_dot.rs
+cd ..
+git status
+git add examples/save_to_dot.rs
+git status
+git commit -m "removed save_to_dot example"
+git status
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+rustup toolchain list
+hx
+ls
+rm tmp.rs
+cd Development/
+ls
+cd patmatch/
+ls
+cargo r
+hx .
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+cd Development/
+ls
+cd algo_graph/
+ls
+git status
+cd ..
+ls
+cd pinplot/
+cargo r
+cd Development/
+cargo new sdf
+cd sdf
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+WGPU_POWER_PREF=high cargo run --release
+hx .
+cd ..
+rm -rf sdf/
+cd Development/
+ls
+cd algo_graph/
+gti status
+git status
+git branch --list
+git push
+hx .
+git stash
+git pull
+git pull.rebase false
+git config pull.rebase false
+git pull
+hx .
+git status
+git push
+sudo pacman -S feh
+frh
+feh
+hx .
+sudo pacman -S otf-monocraft
+yay -S otf-monocraft
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+cd
+sudo pacman -S otf-monocraft
+yay -S otf-monocraft
+cd .config/
+hx (xplr .)
+sudo pacman -Q | find fira
+sudo pacman -Q | grep fira
+sudo pacman -R ttf-firacode-nerd
+nu --version
+nu config
+hx (xplr .)
+cd Development/algo_graph/
+hx .
+cd
+dotfiles status

@@ -1,0 +1,38 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="AA" type="int">8</pref>
+	<pref name="AbilityMove" type="string">R3JhcHBsaW5nIGhvb2s=</pref>
+	<pref name="AbilityProgressBinaryPlayerPrefs" type="string">MTEwMDAxMDEwMQ==</pref>
+	<pref name="Double jump" type="int">1</pref>
+	<pref name="FOV" type="int">105</pref>
+	<pref name="FirstTime1" type="int">1</pref>
+	<pref name="Grappling hookAbilityMove" type="int">1</pref>
+	<pref name="Help" type="string">RmFsc2U=</pref>
+	<pref name="Screenmanager Is Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="ShowTwitch4" type="int">1</pref>
+	<pref name="TAA" type="int">1</pref>
+	<pref name="UnityGraphicsQuality" type="int">0</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="aberr" type="int">1</pref>
+	<pref name="bloom" type="int">1</pref>
+	<pref name="completed" type="int">72</pref>
+	<pref name="completedChristmas" type="int">0</pref>
+	<pref name="completedHalloween" type="int">0</pref>
+	<pref name="currentLevel" type="int">10</pref>
+	<pref name="currentLevelChristmas" type="int">1</pref>
+	<pref name="currentLevelHalloween" type="int">1</pref>
+	<pref name="currentLvl" type="int">10</pref>
+	<pref name="firstAbility" type="int">1</pref>
+	<pref name="inverted" type="int">0</pref>
+	<pref name="invertedX" type="int">0</pref>
+	<pref name="level" type="int">1</pref>
+	<pref name="master" type="float">1.1</pref>
+	<pref name="music" type="float">0.6</pref>
+	<pref name="playThroughTime" type="float">275.124</pref>
+	<pref name="points" type="float">55489</pref>
+	<pref name="shadowD" type="int">500</pref>
+	<pref name="ssao" type="int">1</pref>
+	<pref name="vSync" type="int">1</pref>
+	<pref name="vignette" type="int">1</pref>
+</unity_prefs>
