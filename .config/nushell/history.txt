@@ -1699,3 +1699,20 @@ cd Development/algo_graph/
 hx .
 cd
 dotfiles status
+dotfiles add ~/.config/*
+dotfiles status
+dotfiles commit "new font, nu config update, helix config update"
+dotfiles commit -m "new font, nu config update, helix config update"
+dotfiles push
+git config --global credential.helper store
+cd Development/algo_graph/
+git pull
+cd ..
+ls
+dotfiles status
+cd ~/.config/
+ls
+cd alacritty/
+ls
+hx alacritty.yml
+dotfiles status
