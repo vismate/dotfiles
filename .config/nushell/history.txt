@@ -1728,3 +1728,1389 @@ sudo bleachbit
 hx .config/i3/config
 i3-msg reload
 dotfiles commit -m -a "i3 smaller outer gamps and thinner border"
+dotfiles commit -a -m "i3 smaller outer gamps and thinner border"
+dotfiles push
+cd Development/
+ls
+cd patmatch/
+hx .
+cargo r
+cd Development/
+ls
+cd algo_graph/
+hx .
+cd..
+cd ..
+git clone https://github.com/vismate/vason.git
+cd vason/
+hx .
+cargo r --example minifb_bench,ark  --release
+cargo r --example minifb_benchmark  --release
+hx .
+cargo r --example bounce  --release
+cd ..
+cd vason
+git branch --list
+git pull
+git branch --list
+git switch release/v0.0.4
+git branch --list
+hx .
+cd Development/
+ls
+cd vason
+cargo r --example bounce  --release
+cargo r --example minifb_benchmark
+hx .
+cd ..
+ls
+cd pinplot/
+cargo r 
+sudo chmod a+rw /dev/ttyACM0
+cargo r 
+hx .
+cargo r 
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+sudo pacman -S zathura
+zathura
+cd Downloads/
+zathura
+zathura csatari_jakab.pdf
+sudo pacman -R zathura
+sudo pacman -S mupdf
+mupdf
+mupdf csatari_jakab.pdf
+mupdf csatari_jakab.pdf -I
+mupdf -I csatari_jakab.pdf
+mupdf -I csatari_jakab.pdf &
+cd Downloads/
+mupdf -I csatari_jakab.pdf &
+mupdf --help
+mupdf -I csatari_jakab.pdf &
+cd Downloads/
+ls
+cd Downloads/
+rm nohup.out
+hx
+cd Documents/
+ls
+pandoc zkp_hamiltonian.md --from gfm -V geometry:margin=1in -o zkp-hamiltonian.pdf
+sudo pacman -S pandoc
+pandoc zkp_hamiltonian.md --from gfm -V geometry:margin=1in -o zkp-hamiltonian.pdf
+sudo pacman -S pdflatex
+sudo pacman -S texlive-most
+sudo pacman -S texlive-core
+sudo pacman -S texlive-bin
+sudo pacman -S texlive-core
+pandoc zkp_hamiltonian.md --from gfm -V geometry:margin=1in -o zkp-hamiltonian.pdf
+mupdf -I zkp-hamiltonian.pdf
+firefox -I zkp-hamiltonian.pdf
+firefox zkp-hamiltonian.pdf
+hx .
+pandoc zkp_hamiltonian.md --from gfm -V geometry:margin=1in -o zkp-hamiltonian.pdf
+firefox zkp-hamiltonian.pdf
+hx .
+pandoc zkp_hamiltonian.md --from gfm -V geometry:margin=1in -o zkp-hamiltonian.pdf
+firefox zkp-hamiltonian.pdf
+cd Downloads/
+ls
+mupdf -I csatari_jakab.pdf &
+cd Downloads/
+mupdf -I csatari_jakab.pdf &
+hx .
+pandoc zkp_hamiltonian.md --from gfm -V geometry:margin=1in -o zkp-hamiltonian.pdf
+cd Downloads/
+ls
+rm csatari_jakab.pdf
+feh
+rm `2023-01-15-20 31 34-screenshot.png`
+ls
+ls
+mupdf -I zkp-hamiltonian.pdf
+cd Documents/
+rm zkp-hamiltonian.pdf
+cd Documents/
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+cd Development/
+LS
+ls
+cd vason
+git status
+git pull
+cd examples/
+ls
+cd ..
+(ls src)
+(ls src | get name)
+cat (ls src | get name)
+cat (ls src | get name) | lines
+cat (ls src | get name) | lines | count
+cat (ls src | get name) | lines | length
+feh
+cargo r --example save_to_ppm
+feh
+cd ..
+ls
+cd Development/
+ls
+cargo vason_sandbox
+cargo new vason_sandbox
+cd vason_sandbox/
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd ..
+cd vason
+hx .
+cd ../vason_sandbox/
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cd ../vason
+hx .
+git status
+cd Development/vason_sandbox/
+cargo r --release
+cd ../vason
+git status
+git add src/canvas.rs
+git commit -m "Canvas: fixed bug in thick_outline_ellipse (when x is negative and b < a)"
+cat (ls src | get name) | lines | length
+git status
+cargo t
+git status
+git add src/canvas.rs
+git commit -m "Canvas: added documentation for thick_outline_ellipse"
+git status
+cat README.md
+hx --version
+htop
+cd Development/vason
+hx -
+cd Development/vason_sandbox/
+htop
+cd Development/vason_sandbox/
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+git status
+git add README.md
+git commit -m "updated readme"
+git status
+sudo bleachbit
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+cd Development/vason_sandbox/
+cargo r
+cargo r --release
+cd ../vason/
+hx .-
+hx .
+cd ../vason_sandbox/
+cargo r
+cd ../vason
+hx .
+cargo expand --help
+cargo expand src/canvas.rs
+cargo expand crate::canvas
+cargo expand canvas
+ outer_a * outer_a * (py * py + py) + outer_b * outer_b * (px - 1) * (px - 1)
+                    - outer_b * outer_b * outer_a * outer_a
+ outer_a * outer_a * (py * py + py) + outer_b * outer_b * (px - 1) * (px - 1)
+                    - outer_b * outer_b * outer_a * outer_a
+ outer_a * outer_a * (py * py + py) + outer_b * outer_b * (px - 1) * (px - 1)
+                    - outer_b * outer_b * outer_a * outer_a
+ outer_a * outer_a * (py * py + py) + outer_b * outer_b * (px - 1) * (px - 1)
+                    - outer_b * outer_b * outer_a * outer_a
+cargo expand canvas | lines
+git status
+cd Development/vason_sandbox/
+cargo r
+cargo r --release
+cargo r
+hx .
+git status
+git add canvas.ppm
+git add src/canvas.rs
+git status
+git commit -m "Canvas: thick_outline_ellipse() now uses 64bit arithmetic and custom hline macro to make vertical an horizontal thickness more similar"
+hx .
+cargo expand canvas | lines
+cd ../vason_sandbox/
+cargo r
+hx .
+cargo r
+cargo r --release
+hx .
+cargo r --release
+cd ../vason
+hx .
+git status
+cd ../vason_sandbox/
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd Downloads/
+feh
+mv img.jpg ../Development/vason_sandbox/img.jpg
+cargo add image
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cargo r 
+feh
+ls
+file img.jpg
+mv img.jpg img.webp
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+feh
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cat Cargo.toml
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+feh
+cargo r --release
+feh
+cargo r --release
+efh
+feh
+cargo add image
+hx .
+cargo add image
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+feh
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd Development/vason
+hx .
+cd Development/
+cargo new merkle-tree
+hx .
+cd merkle-tree/
+hx .
+cd ..
+rm -rf merkle-tree/
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo pacman -S lutris
+sudo pacman -S wine
+yay -R ntfix-git
+feh
+locate .desktop
+locate rockstar
+locate launcher
+sudo bleachbit
+locate software token
+locate "Bleachbit"
+locate Bleachbit
+locate bleachbit
+cd /
+locate bleachbit
+locate Bleachbit
+sudo pacman -S gparted
+locate SteamLibrary
+sudo pacman -R gparted
+sudo bleachbit
+cd /mnt/sdb1/
+mkdir SteamLibrary
+sudo mkdir SteamLibrary
+ls
+sudo chown $USER:$USER /mnt/sdb1/
+sudo chown vismate:vismate /mnt/sdb1/
+sudo chown -v -R --preserve-root vismate:vismate /mnt/sdb1/
+pacman -Q nushell
+pacman -Q ntf
+pacman -Q ntfs
+pacman -Q ntfs-tools
+pacman -Q 
+sudo pacman -R ntfs-3g
+cd /etc
+hx fstab
+sudo hx fstab
+xplr
+cd Downloads/
+mv teardown.jpg /mnt/sdb1/SteamLibrary/steamapps/common/Teardown/teardown.jpg
+mv civ6.jpg `/mnt/sdb1/SteamLibrary/steamapps/common/Sid Meier's Civilization VI/civ6.jpg`
+cd /etc
+sudo hx fstab
+mount /dev/sdb1 /mnt/sdb1/
+sudo mount /dev/sdb1 /mnt/sdb1/
+lsblk -f
+cd /etc
+sudo hx fstab
+cd Downloads/
+ls
+unzip ScriptHookV_1.0.2802.0.zip
+ls
+hx readme.txt
+ls bin
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+cp ~/Downloads/bin/* .
+ls
+cd ~/Downloads/
+ls
+cd rm www.dev-c.com.url
+rm www.dev-c.com.url
+ls
+rm readme.txt
+ls
+rm -rf bin/
+ls
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+rm NativeTrainer.asi
+cd Downloads/
+ls
+mkdir trainer
+cd trainer/
+unzip ../382dca-TrainerV.rar
+unrar ../382dca-TrainerV.rar
+unrar -e ../382dca-TrainerV.rar
+unrar e ../382dca-TrainerV.rar
+ls
+hx .
+cp ~/Downloads/trainer/TrainerV.asi
+cp ~/Downloads/trainer/TrainerV.asi .
+cp ~/Downloads/trainer/trainerv.ini .
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+hx trainerv.ini
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+hx trainerv.ini
+cd Downloads/
+ls
+rm ScriptHookV_1.0.2802.0.zip
+rm 382dca-TrainerV.rar
+ls
+rm -rf trainer/
+ls
+mkdir arrest
+cd arrest
+unrar e ../c6d8e0-ArrestPedV-1.0.1.rar
+ls
+hx README.txt
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+hx ArrestPedV.ini
+hx .
+rm README.txt
+ls
+cp ~/Downloads/arrest/* .
+ls
+cd ..
+rm c6d8e0-ArrestPedV-1.0.1.rar
+rm -rf arrest/
+:wq
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+hx ScriptHookV.log
+hx ArrestPedV.ini
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+lsls
+ls
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+rm ArrestPedV.asi
+rm ArrestPedV.ini
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+mv ScriptHookV.dll ScriptHookV.dll.noload
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+htop
+sudo bleachbit
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+mv ScriptHookV.dll.noload ScriptHookV.dll
+mv ScriptHookV.dll ScriptHookV.dll.noload
+ls
+locate wine
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+rm GTA5.exe
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+cd ..
+ls
+cd `Social Club/`
+LS
+ls
+cd  `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/`
+ls
+rm -rf `Social Club/`
+cd  `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/`
+cd `Grand Theft Auto V/`
+ls
+cd ..
+rm -rf `Social Club/`
+cd Launcher/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd `Program Files (x86)/`
+ls
+cd `Rockstar Games/`
+ls
+rm -rf `Social Club/`
+cd ..
+ls
+cd ProgramData/
+ls
+cd `Rockstar Games/`
+ls
+rm -rf `Social Club/`
+ls
+rm -rf Launcher/
+cd ..
+ls
+cd ..
+ls
+cd users/
+ls
+cd vismate/
+ls
+cd `Saved Games/`
+ls
+cd ..
+cd Documents/
+ls
+cd `Rockstar Games/`
+ls
+rm -rf `Social Club/`
+cd Launcher/
+ls
+hx launcher.log
+cd ..
+ls
+cd ..
+ls
+cd ..
+cd Documents/
+rm -rf `Rockstar Games/`
+cd ..
+ls
+cd Temp/
+ls
+cd ..
+rm -rf Temp/
+mkdir Temp
+cd /mnt/sdb1/LutrisLibrary/GTAV/drive_c/
+ls
+cd users/
+ls
+cd ..
+cd /mnt/sdb1/LutrisLibrary/GTAV/drive_c/
+ls
+cd users/
+ls
+cd vismate/
+ls
+cd AppData/
+ls
+cd Local/
+ls
+rm -rf `Rockstar Games/`
+ls ..
+cd ..
+cd Roaming/
+ls
+cd trainerv/
+ls
+cd ..
+ls
+cd LocalLow/
+ls
+cd /mnt/sdb1/LutrisLibrary/GTAV/drive_c/
+ls
+cd `Program Files/`
+ls
+cd `Rockstar Games/`
+ls
+cd `Grand Theft Auto V/`
+ls
+cd update
+ls
+cd ..
+ls
+cd /mnt/sdb1/LutrisLibrary/GTAV/drive_c/
+ls
+cd `Program Files/Rockstar Games/`
+ls
+cd `Grand Theft Auto V/`
+ls
+rm index.bin
+cd /mnt/sdb1/LutrisLibrary/GTAV/drive_c/
+ls
+cd `Program Files/`
+cd ..
+cd `Program Files (x86)/`
+ls
+cd `Rockstar Games/`
+ls
+rm -rf `Social Club/`
+cd ..
+cd `Program Files/`
+cd `Rockstar Games/`
+rm -rf `Social Club/`
+ls
+cd `Grand Theft Auto V/`
+ls
+rm index.bin
+cd ..
+cd..
+cd ..
+cd users/
+cd vismate/
+cd AppData/
+ls
+cd Local/
+cd
+cd /mnt/sdb1/LutrisLibrary/GTAV/drive_c/users/vismate/AppData/Local
+ls
+rm -rf `Rockstar Games/`
+cd ..
+ls
+cd LocalLow/
+ls
+cd ..
+cd Roaming/
+ls
+vd ..
+cd ..
+cd Documents/
+ls
+cd `Rockstar Games/`
+ls
+cd `GTA V/`
+ls
+cd Profiles/
+ls
+cd B57428A8/
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf `Social Club/`
+cd Launcher/
+ls
+cd Profiles/
+ls
+cd B57428A8/
+ls
+cd Downloads/
+ls
+rm `GTAVLauncherBypass(1).asi`
+rm `GTAVLauncherBypass.asi`
+ls
+unrar e GTAVLauncherBypass.rar
+ls
+cd /mnt/sdb1/LutrisLibrary/GTAV/drive_c/
+cd `Program Files/Rockstar Games/Grand Theft Auto V/`
+cp ~/Downloads/GTAVLauncherBypass.asi .
+cp ~/Downloads/GTAVLauncherBypass.ini .
+ls
+cd `Program Files/Rockstar Games/Grand Theft Auto V/`
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+rm `GTAVLauncherBypass.asi`
+rm GTAVLauncherBypass.ini
+rm GTAVLauncherBypass.log
+cd Development/
+cargo new server
+cd server
+cargo add axum
+cargo add tokio
+cargo add tokio -F macros -F rt-multi-thread
+hx .
+cargo r
+hx .
+cargo watch
+cargo install cargo-watch
+cd Development/server/
+hx .
+tree
+ls -r
+ls 
+cd src
+ls
+cd routes/
+ls
+cd ..
+hx .
+cd ..
+rm -rf server/
+cargo watch -x run
+cargo remove 
+cargo uninstall
+cargo uninstall cargo-watch
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+cd /mnt/sdb1/LutrisLibrary/GTAV/drive_c/
+cd `Program Files/`
+cd `Rockstar Games/`
+cd `Grand Theft Auto V/`
+ls
+cd Development/
+cargo new server
+űcd server
+cd server
+cargo install cargo-watch
+cargo add tokio -F macros -F rt-multi-thread
+cargo add axum
+cd Development/server/
+hx .
+cargo clippy
+cargo clippy --pedantic
+cargo clippy --help
+cargo check --help
+cargo check
+netcat
+netcat 0.0.0.0:3000
+curl 
+curl -i POST 0.0.0.0:3000/mirror
+curl -i -X 0.0.0.0:3000/mirror
+curl  -X "0.0.0.0:3000/mirror"
+curl -X "0.0.0.0:3000/mirror"
+curl -X POST "0.0.0.0:3000/mirror"
+curl -X POST "0.0.0.0:3000/mirror" hello
+curl -X POST "0.0.0.0:3000/mirror" -H hello
+curl -X POST -H "hello" "0.0.0.0:3000/mirror"
+curl -X POST -d "hello" "0.0.0.0:3000/mirror"
+curl -X POST -d "hello" "0.0.0.0:3000/mirror_json"
+curl -X POST -d "$(cat msg.json)" "0.0.0.0:3000/mirror_json"
+curl -X POST -d '$(cat msg.json)' "0.0.0.0:3000/mirror_json"
+curl -X POST -d (cat msg.json) "0.0.0.0:3000/mirror_json"
+cd Development/server/
+hx body.json
+curl -X POST -d (cat body.json) "0.0.0.0:3000/mirror_json"
+curl -X POST -H "Content-Type: application/json" -d (cat body.json) "0.0.0.0:3000/mirror_json"
+hx body.json
+curl -X POST -H "Content-Type: application/json" -d (cat body.json) "0.0.0.0:3000/mirror_json"
+yay -S ngrok
+sudo bleachbit
+ngrok config add-authtoken 1ZZcow1faAW4R72kHSxYHUsXN1U_5nHxz3GxY4SRJJFWUNvZp
+ngrok help
+curl -X GET "0.0.0.0:3000/list/5"
+curl -X GET "0.0.0.0:3000/list/-5"
+curl -X GET "0.0.0.0:3000/list/5"
+curl -X GET "0.0.0.0:3000/list/3"
+curl -X GET "0.0.0.0:3000/list/2"
+curl -X GET "0.0.0.0:3000/list/1"
+curl -X GET "0.0.0.0:3000/list/0"
+yay -R ngrok
+sudo pacman -Qrdq | sudo pacman -Rns -
+sudo pacman -Qrdq 
+sudo pacman -Qtdq 
+sudo pacman -Qtdq | sudo pacman -Rns -
+curl -X POST "0.0.0.0:3000/query?id=2&msg=h"
+curl -X POST "0.0.0.0:3000/query/?id=2&msg=h"
+curl -X POST "0.0.0.0:3000/query/?id=2&message=h"
+curl -X GET "0.0.0.0:3000/query/?id=2&message=h"
+curl -X GET "0.0.0.0:3000/query?id=2&message=h"
+curl -X GET "0.0.0.0:3000/query?id=2&message=hello"
+curl -X GET "0.0.0.0:3000/query?id=2&message=hello ka"
+curl -X GET "0.0.0.0:3000/query?id=2&message=helloka"
+curl -X GET "0.0.0.0:3000/query?id=2&message=hello_ka"
+curl -X GET "0.0.0.0:3000/query?id=2&message=hello_worls"
+curl -X GET "0.0.0.0:3000/query?id=2&message=hello_world"
+cd Development/server/
+hx .
+curl -X GET "0.0.0.0:3000/query?id=2&message=hello_world"
+hx .
+cd Development/server/
+cd src
+ls
+cd templates/
+ls
+cd src/../
+cd src/../../
+hx .
+mv src/templates/style.css file_storage/style.css
+hx .
+mv ~/2023-02-04-01:10:42-screenshot.png file_storage/pic.png
+cd file_storage/
+ls
+cd ..
+hx .
+cd file_storage/
+mkdir stuff
+hx stuff/test.html
+cd ..
+hx .
+cd file_storage/
+hx
+rm -rf stuff/
+ls
+rm pic.png
+hx .
+cd ..
+hx .
+mkdir fs
+mv file_storage/* fs/
+ls
+cd file_storage/
+ls
+cd ..
+rm file_storage/
+ls
+cd fs
+ls
+cd ..
+hx .
+cd fs
+hx script.js
+rm script.js
+ls
+cd ..
+hx .
+cd src/routes/
+ls
+rm hello.rs list.rs mirror.rs mirror_json.rs query.rs
+mv template.rs index.rs
+ls
+hx .
+cd ..
+hx .
+cd ..
+hx .env
+hx .
+hx .env
+cat Cargo.toml
+cargo update
+cat Cargo.toml
+hx .
+ls
+cd src
+ls
+cd routes/
+ls
+cd ..
+hx .env
+hx .
+cargo watch -x run
+hx .env
+hx .
+hx .env
+hx .
+hx .env
+hx .
+hx .env
+cargo watch -x run
+cargo run
+hx .env
+cargo run
+cd fs
+cargo watch -x run
+hx .
+cargo build
+cargo watch -x run
+cargo clean
+cargo build
+cd ..
+hx .env
+cargo watch -x run
+hx .
+hx fs/style.css
+hx src/
+cargo remove axum_extra
+hx .
+cd fs
+ls
+hx .
+cd ..
+hx .
+cargo fmt
+hx .
+cargo watch -x run
+hx .env
+hx .
+hx .env
+hx .
+hx .env
+hx .
+hx .env
+hx .
+cargo watch -x run
+cargo r
+hx .env
+cargo r
+hx .env
+hx .
+cargo r
+hx .
+sudo bleachbit
+cd Development/server/
+hx .
+cat (ls src)
+cat (ls src | get name)
+cat (ls src | get name) (ls src/routes/ | get name)
+cat (ls src | get name) (ls src/routes/ | get name) (ls src/templates/ | get name) (ls fs |get name)
+cat (ls src | get name) (ls src/routes/ | get name) (ls src/templates/ | get name) (ls fs |get name) | lines
+cat (ls src | get name) (ls src/routes/ | get name) (ls src/templates/ | get name) (ls fs |get name) | lines | count
+cat (ls src | get name) (ls src/routes/ | get name) (ls src/templates/ | get name) (ls fs |get name) | lines | length
+cat (ls src | get name) (ls src/routes/ | get name) (ls src/templates/ | get name) (ls fs |get name) | lines 
+cd Development/server/
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+rm -rf target/
+curl -X GET "0.0.0.0:3000/fs/style.css"
+cd Development/
+ls
+cd Development/
+cat axum_fs.rs
+cd server/
+cat Cargo.toml
+curl -X GET "0.0.0.0:3000/fs/style.css"
+curl -X GET "0.0.0.0:3000/fs/pic"
+curl -X GET "0.0.0.0:3000/fs/style.css"
+cargo r
+hx .
+curl -X GET "0.0.0.0:3000/fs/style.css"
+sudo bleachbit
+sudo pacman -Qtdq | sudo pacman -Rns -
+cd Development/server/
+hx -
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+cd Development/
+ls
+rm axum_fs.rs
+cd algo_graph/
+ls
+cat README.md
+cd examples/
+cat (ls | get name)
+cd ..
+ls
+zip --help
+^zip
+zip
+zip ..help
+zip --help
+ls
+cargo new connect
+cd connect/
+hx .
+cd ..
+rm -rf connect/
+cd connect
+mkdir connect
+cd connect
+cargo new server
+cargo new client
+hx Cargo.toml
+ls
+cd server
+hx .
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+hx .
+cd ..
+cd patmatch/
+hx .
+cd ..
+cd connect/
+hx .
+cd server/
+hx .
+cd ..
+hx .
+cargo new fmt
+hx 
+hx .
+cargo r
+cargo r server
+cargo r --bin server
+send
+nc
+netcat
+hx .
+nc 0.0.0.0:3000
+nc 0.0.0.0
+nc --help
+nc 0.0.0.0 3000
+nc localhost 3000
+nc "0.0.0.0" 3000
+nc localhost 3000
+cargo r --bin server
+hx .
+nc localhost 3000
+nc localhost 3000 -c
+cargo r --bin server
+hx .
+ls
+rm -rf fmt
+ls
+cat Cargo.toml
+hx .
+cd ..
+cd patmatch/
+hx .
+ls
+cd ..
+cd connect/
+cargo r --bin server
+hx .
+cargo r --bin server
+hx .
+cargo r --bin server
+nc localhost 3000 -c
+cargo r --bin server
+hx .
+cd ..
+rm -rf connect/
+ls
+cd Development/
+ls
+cd server/
+hx .
+cd ..
+cd vason_sandbox/
+cargo r --release
+cd Development/
+ls
+cd server/
+ls
+cd fs
+ls
+cd ..
+cargo r
+cd ..
+rm -rf server/
+ls
+cargo new ref-storage
+cd ref
+hx .
+cd ..
+rm -rf ref-storage/
+ls
+cd Development/
+ls
+cd pinplot/
+hx .
+cargo update --help
+cargo update
+cargp r
+cargo r
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+mv ScriptHookV.dll.noload ScriptHookV.dll
+cd Downloads/
+ls
+unzip ScriptHookV_1.0.2824.0.zip
+ls
+rm readme.txt www.dev-c.com.url ScriptHookV_1.0.2824.0.zip
+ls
+cd bin
+ls
+mv ScriptHookV.dll `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+cd ..
+rm -rf bin/
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo bleachbit
+pdflatex --help
+ls
+cd Documents/
+ls
+cat pkglist.txt
+cd Downloads/
+ls
+cd MILF.Manor.S01E03.Your.MILF.Dont.Dance.1080p.WEB.h264-CBFM[TGx]/
+ls
+cd ..
+cd /mnt/sdb1/
+ls
+cd lost+found/
+ls
+cd ..
+ls
+mkdir Videos
+mkdir MILF_Manor
+cd /mnt/sdb1/
+ls
+rm MILF_Manor/
+ls
+cd Videos/
+mkdir MILF_Manor
+cd ~/Downloads/
+ls
+sudo bleachbit
+cd Videos/
+ln -s /mnt/sdb1/Videos/ .
+ls
+cd ..
+ls
+cd Videos/
+ls
+cd Videos/
+ls
+cd ..
+cd ~/Videos/
+unlink Videos/
+unlink Videos
+ls
+cd ..
+ln -s /mnt/sdb1/Videos/ .
+cd Videos/
+ln -s /mnt/sdb1/Videos/ ./HardDrive
+ls
+cd HardDrive/
+ls
+cd Videos/HardDrive/
+ls
+cd MILF_Manor/
+ls
+mv MILF.Manor.S01E03.Your.MILF.Dont.Dance.1080p.WEB.h264-CBFM[TGx]/MILF.Manor.S01E03.Your.MILF.Dont.Dance.1080p.WEB.h264-CBFM.mkv MILF.Manor.S01E03.Your.MILF.Dont.Dance.1080p.WEB.h264-CBFM.mkv
+ls
+rm MILF.Manor.S01E03.Your.MILF.Dont.Dance.1080p.WEB.h264-CBFM[TGx]/
+ls
+cd Videos/
+unlink HardDrive/
+unlink HardDrive
+ls
+cd ..
+ln -s /mnt/sdb1/Videos/ ./Videos/
+ls
+cd Videos/
+ls
+unlink Videos/
+unlink Videos
+cd ..
+ls
+rm Videos/
+ls
+ln -s /mnt/sdb1/Videos/ Videos
+ls
+cd Videos/
+ls
+cd
+ls
+cd Templates/
+ls
+cd ..
+cd Desktop/
+ls
+cd ..
+rm Desktop/
+cd Documents/
+ls
+cd ..
+ls
+cd Music/
+ls
+cd ..
+rm Music/
+ls
+cd Pictures/
+ls
+cd ..
+rm Pictures/
+ls
+cd Public/
+ls
+cd ..
+rm Templates/
+ls
+mkfir Desktop
+mkdir Desktop
+mkdir Templates
+mkdir Pictures
+mkdir Music
+ls
+sudo bleachbit
+cd Videos/
+ls
+cd MILF_Manor/
+és
+ls
+mv MILF.Manor.S01E01.MILF.Said.Knock.You.Out.1080p.WEBRip.x264-CBFM[TGx]/MILF.Manor.S01E01.MILF.Said.Knock.You.Out.1080p.WEBRip.x264-CBFM.mkv MILF.Manor.S01E01.MILF.Said.Knock.You.Out.1080p.WEBRip.x264-CBFM.mkv
+rm MILF.Manor.S01E01.MILF.Said.Knock.You.Out.1080p.WEBRip.x264-CBFM[TGx]/
+ls
+cd /mnt/sdb1/
+ls
+cd Videos/
+ls
+cd `Better Call Saul (2015) Season 1-6 S01-S06 (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)/`
+ls
+cd Down
+ls
+unrar e c6d8e0-ArrestPedV-1.0.1.rar
+ls
+rm README.txt
+rm c6d8e0-ArrestPedV-1.0.1.rar
+ls
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+hx ArrestPedV.ini
+mv ArrestPedV.asi `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/ArrestPedV.asi`
+ls
+mv ArrestPedV.ini `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/ArrestPedV.ini`
+ls
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+hx ArrestPedV.ini
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+hx ArrestPedV.ini
+yay -S blender-git
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo pacman -S blender
+yay; yay -S helix-git rust-analyzer-git blender-git; rustup update; rustup toolchain remove 1.61.0
+yay -S blender-git
+rustup toolchain list
+yay; yay -S helix-git rust-analyzer-git blender-git; rustup update; rustup toolchain remove 1.61.0
+rustup update; rustup toolchain remove 1.61.0
+sudo bleachbit
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo pacman -S blender
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo pacman -R ntfs-3g blender
+sudo pacman -Qtdq | sudo pacman -Rns -
+yay -Qtdq | yay -Rns -
+cd Development/
+ls
+cd pinplot/
+cargo r
+cd .config/
+cd i3/
+ls
+hx config
+i3-msg reload
+hx config
+i3-msg reload
+i3-msg restart
+cd .config/i3
+hx config
+cd 
+dotfiles status

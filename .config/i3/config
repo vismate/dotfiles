@@ -311,10 +311,15 @@ set $ws10 "10"
 # where you have to replace VGA-0/HDMI-0 with the names for your displays
 # you can get from xrandr command
 workspace $ws1 output HDMI-0
-#workspace $ws2 output VGA-0
-#workspace $ws3 output HDMI-0
-#workspace $ws4 output HDMI-0
-#workspace $ws5 output HDMI-0
+workspace $ws2 output HDMI-0
+workspace $ws3 output HDMI-0
+workspace $ws4 output HDMI-0
+workspace $ws5 output HDMI-0
+workspace $ws6 output DP-1
+workspace $ws7 output DP-1
+workspace $ws8 output DP-1
+workspace $ws9 output DP-1
+workspace $ws10 output DP-1
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Xfce4-terminal] focus
