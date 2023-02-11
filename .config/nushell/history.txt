@@ -3433,3 +3433,30 @@ hx .config/alacritty/alacritty.yml
 cd Development/algo_graph/
 hx .
 dotfiles status
+dotfiles commit -a -m "jetbrains mono font"
+dotfiles push
+ls
+cd Development/algo_graph/
+ls
+cd Videos/
+ls
+cd `MILF Manor/`
+ls
+cd `../Better Call Saul/`
+ls
+cd `Season 1/`
+ls
+file `Better Call Saul (2015) - S01E01 - Uno (1080p BluRay x265 Silence).mkv`
+hexdump
+hexdump `Better Call Saul (2015) - S01E01 - Uno (1080p BluRay x265 Silence).mkv`
+ls
+cd
+ls
+python -m --help
+python  --help
+python -m http.server --help
+python -m http.server -d
+ls
+hx .config/alacritty/alacritty.yml
+ls
+hx .config/alacritty/alacritty.yml
