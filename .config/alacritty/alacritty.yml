@@ -7,7 +7,7 @@ shell:
 
 font:
   normal:
-    family: Monocraft
+    family: JetBrains Mono Nerd Font
     style: medium
   size: 10
 

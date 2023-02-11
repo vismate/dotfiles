@@ -3114,3 +3114,322 @@ cd .config/i3
 hx config
 cd 
 dotfiles status
+dotfiles commit -a -m "i3 dual screen workspace layout"
+dotfiles push
+cd Videos/
+ls
+cd MILF_Manor/
+ls
+cd `../Better Call Saul (2015) Season 1-6 S01-S06 (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)/`
+ls
+cd `Season 1/`
+ls
+cd Videos/
+ls
+cd MILF_Manor/
+ls
+cd Videos/
+ls
+mv `Better Call Saul (2015) Season 1-6 S01-S06 (1080p BluRay x265 HEVC 10bit AAC 5.1 Silence)/` `Better Call Saul`
+ls
+mv MILF_Manor `MILF Manor`
+ls
+cd `Better Call Saul/`
+ls
+cd `Season 1/`
+ls
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo bleachbit
+cd Development/
+cargo new parse_textual_graph
+cd parse_textual_graph/
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+cd ../algo_graph/
+hx .
+cargo r --example bfs
+ls
+cat bfs_output.dot
+hx .
+cd ../parse_textual_graph/
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx -
+hx .
+hx -
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+cd Development/algo_graph/
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+cargo r --release
+hx .
+cargo r --release
+hx .
+cd ../algo_graph/
+cd Development/
+ls
+hx .
+cargo r 
+cargo r --example bfs
+hx .
+cargo r --example bfs
+cd parse_textual_graph/
+hx .
+cd src
+mv main.rs lib.rs
+ls
+hx .
+cargo r --example bfs
+hx .
+cargo r --example bfs
+hx .
+cd ../parse_textual_graph/
+hx .
+cd ../algo_graph/
+cargo r --example bfs
+hx .
+cat bfs_output.dot
+hx .
+cat bfs_output.dot
+cargo r --example bfs
+cat bfs_output.dot
+hx .
+git status
+git stash
+git status
+cd Development/algo_graph/
+cd Development/parse_textual_graph/
+hx .
+car src/lib.rs
+cat src/lib.rs
+cat Cargo.toml
+hx src/parse_graph.rs
+cargo r --example bfs
+hx .
+cargo r --example bfs
+hx .
+cargo r --example bfs
+hx .
+cargo r --example bfs
+hx .
+ls src
+cat src/graph.rs
+cd Development/parse_textual_graph/
+cat src/lib.rs
+hx .
+cargo r --example bfs
+hx .
+cargo r --example bfs
+hx .
+cargo r --example bfs
+hx .
+cargo r --example bfs
+hx .
+cargo r --example bfs
+cat bfs_output.dot
+hx .
+cargo r --example dagshp
+hx .
+cargo r --example dagshp
+cat dagshp.dot
+hx .
+cargo expand 
+cargo expand examples/dagshp.rs
+cargo expand examples::dagshp.rs
+cargo expand --examples dagshp.rs
+cargo expand --example dagshp.rs
+cargo expand --example dagshp
+cargo clean
+cargo r --example dagshp
+cargo expand --example dagshp
+ hx .
+cargo expand --example dfs
+cargo r --example dfs
+hx .
+cargo r --example dfs
+hx .
+cargo r --example dijkstra
+hx .
+cargo r --example qbf
+cat qbf.dot
+cargo expand --example qbf
+cargo expand --example qbf --theme
+cargo expand --example qbf --theme ayu
+cargo expand --example qbf --theme ayu-dark
+cargo expand --example qbf --theme --list
+cargo expand --example qbf --theme -- --list
+cargo expand --example qbf --theme
+cargo expand --example qbf --help
+cargo expand --example qbf --themes
+cargo expand --example qbf 
+cargo expand --example kruskal 
+cargo expand --example prim
+hx .
+git status
+git add Cargo.toml examples/* src/lib.rs src/parse_graph.rs
+git status
+git add Cargo.lock
+git status
+git commit -m "added graph parsing functions and macro, reworked examples accordingly"
+git push
+HTOP
+cd Videos/
+ls
+cd `MILF Manor/`
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.61.0
+rustup toolchain list
+ rustup toolchain remove 1.63.0
+hx --version
+ls
+cd Development/parse_textual_graph/
+ls
+hx .
+cd
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo pacman -Q | grep mono
+sudo pacman -R otf-monocraft
+sudo pacman -S  ttf-jetbrains-mono-nerd
+sudo pacman -Qtdq | sudo pacman -Rns -
+fc-list
+fc-list | grep brains
+fc-list | grep jet
+fc-list | grep Noto
+fc-list | grep Brains
+cd .config/alacritty/
+ls
+hx alacritty.yml
+hx .config/alacritty/alacritty.yml
+cd Development/parse_textual_graph/
+ls
+cd src/
+ls
+hx .
+cd ..
+ls
+cd algo_graph/
+ls
+hx .
+cd
+hx .config/alacritty/alacritty.yml
+ls
+cd Development/
+ls
+cd algo_graph/
+ls
+cd 
+hx .config/alacritty/alacritty.yml
+ls
+cd Development/algo_graph/
+és
+ls
+hx .
+cd 
+hx .config/alacritty/alacritty.yml
+cd Development/algo_graph/
+hx .
+dotfiles status
