@@ -6,9 +6,9 @@ shell:
 
 font:
   normal:
-    family: Monocraft
+    family: JetBrains Mono Nerd Font
     style: medium
-  size: 8
+  size: 8.5
 
 # Colors (Ayu Dark)
 colors:
