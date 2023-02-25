@@ -3460,3 +3460,93 @@ ls
 hx .config/alacritty/alacritty.yml
 ls
 hx .config/alacritty/alacritty.yml
+dotfiles commit -a -m "terminal font size change"
+dotfiles push
+locate dotfiles
+cd Development/algo_graph/
+ls
+cd
+dotfiles status
+sudo bleachbit
+cd Videos/
+cd `Better Call Saul/`
+LS
+ls
+cd season 1
+cd `Season 1/`
+ls
+cd Development/algo_graph/
+git status
+cdq
+notify-send -u normal Test
+notify-send --help
+notify-send --version
+which notify-send 
+file (which notify-send | get path)
+cd Development/algo_graph/
+hx .
+cargo expand --example prim
+cargo r --example qbf
+cd Development/algo_graph/
+cargo r --example qbf
+RUST_BACKTRACE=1 cargo r --example qbf
+cargo r --example qbf
+hx .
+git status
+git add src/parse_graph.rs
+git status
+git commit -m "reworked graph parsing, multiedges now cause an error (if defined with different weights)"
+git push
+git pull
+git push
+cargo r --example qbf
+cargo r --example bfs
+hx .
+git pull --rebase
+git stash
+cd Development/
+ls
+rm -rf parse_textual_graph/
+ls
+cd vason
+ls
+cd Development/
+ls
+cd vason_sandbox/
+hx .
+cd ..
+cd patmatch/
+hx .
+cd ..
+ls
+cd arduino-lcd/
+hx 
+hx .
+cd ..
+cd pinplot/
+ls
+pacman -Q |grep html
+pacman -Q |grep semver
+pacman -Q |grep node
+pacman -Q |grep font
+cd Development/
+ls
+cd algo_graph/
+git status
+hx .
+git stash
+rm src/format_output.rs
+ls
+cd ..
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.63.0
+sudo bleachbit
+yay -R pandoc-bin; sudo pacman -S pandoc-cli
+sudo pacman -R pandoc-bin; sudo pacman -S pandoc-cli
+pacman -Q |grep pandoc
+cd .config/nushell/
+ls
+hx env.nu
+ls ~/.cargo/bin
+flamegraph
+dotfiles status
