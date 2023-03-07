@@ -3737,3 +3737,6 @@ dotfiles add ~/.config/llpp.conf
 dotfiles status
 dotfiles commit -m "llpp config"
 dotfiles push
+dotfiles stash
+cat .config/llpp.conf
+hx .config/llpp.conf
