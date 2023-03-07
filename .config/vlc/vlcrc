@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.17.4
+###  vlc 3.0.18
 ###
 
 ###
@@ -659,16 +659,16 @@
 [freetype] # Freetype2 font renderer
 
 # Font (string)
-#freetype-font=Serif Bold
+freetype-font=Noto Sans
 
 # Monospace Font (string)
-#freetype-monofont=Monospace
+freetype-monofont=Noto Sans Mono
 
 # Font size in pixels (integer)
-#freetype-fontsize=0
+freetype-fontsize=32
 
 # Relative font size (integer)
-#freetype-rel-fontsize=0
+freetype-rel-fontsize=20
 
 # Text opacity (integer)
 #freetype-opacity=255
@@ -1158,7 +1158,7 @@
 #marq-y=0
 
 # Marquee position (integer)
-#marq-position=-1
+marq-position=0
 
 # Opacity (integer)
 #marq-opacity=255
@@ -1196,7 +1196,7 @@
 #logo-opacity=255
 
 # Logo position (integer)
-#logo-position=-1
+logo-position=0
 
 [dynamicoverlay] # Dynamic video overlay
 
@@ -1218,7 +1218,7 @@
 #audiobargraph_v-transparency=255
 
 # Bargraph position (integer)
-#audiobargraph_v-position=-1
+audiobargraph_v-position=0
 
 # Bar width in pixel (integer)
 #audiobargraph_v-barWidth=10
@@ -1382,7 +1382,7 @@
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.17.4 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.18 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -3366,38 +3366,6 @@ qt-privacy-ask=0
 # Set NFS uid/guid automatically (boolean)
 #nfs-auto-guid=1
 
-[live555] # RTP/RTSP/SDP demuxer (using Live555)
-
-# Use RTP over RTSP (TCP) (boolean)
-#rtsp-tcp=0
-
-# Client port (integer)
-#rtp-client-port=-1
-
-# Force multicast RTP via RTSP (boolean)
-#rtsp-mcast=0
-
-# Tunnel RTSP and RTP over HTTP (boolean)
-#rtsp-http=0
-
-# HTTP tunnel port (integer)
-#rtsp-http-port=80
-
-# Kasenna RTSP dialect (boolean)
-#rtsp-kasenna=0
-
-# WMServer RTSP dialect (boolean)
-#rtsp-wmserver=0
-
-# Username (string)
-#rtsp-user=
-
-# Password (string)
-#rtsp-pwd=
-
-# RTSP frame buffer size (integer)
-#rtsp-frame-buffer-size=250000
-
 [linsys_sdi] # SDI Input
 
 # Link # (integer)
@@ -3625,12 +3593,6 @@ qt-privacy-ask=0
 
 # Musicbrainz Server (string)
 #musicbrainz-server=musicbrainz.org
-
-# CDDB Server (string)
-#cddb-server=freedb.videolan.org
-
-# CDDB port (integer)
-#cddb-port=80
 
 [avio] # libavformat AVIO access
 
@@ -3922,7 +3884,7 @@ qt-privacy-ask=0
 #osd=1
 
 # Text rendering module (string)
-#text-renderer=
+text-renderer=any
 
 # Use subtitle file (string)
 #sub-file=
@@ -4180,7 +4142,7 @@ qt-privacy-ask=0
 #packetizer=
 
 # VoD server module (string)
-#vod-server=
+vod-server=any
 
 # Use a plugins cache (boolean)
 #plugins-cache=1

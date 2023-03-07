@@ -3550,3 +3550,190 @@ hx env.nu
 ls ~/.cargo/bin
 flamegraph
 dotfiles status
+dotfiles commit -a -m "added .cargo/bin to path"
+dotfiles push
+sudo bleachbit
+hw
+istopo
+hwloc
+sudo pacman _R hwlc
+sudo pacman -R hwlc
+sudo pacman -R hwloc
+sudo pacman -R openmpi
+hx --version
+cd Development/
+ls
+cd algo_graph/
+cd Development/algo_graph/
+git status
+git pull
+hx .
+git stash
+cd ..
+ls
+cd vason
+hx .
+git status
+git diff
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.63.0
+vlc
+ffmprg
+ffmpeg
+cd Downloads/
+ls
+rm `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4`
+ls
+rm story.mp3
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.63.0
+cd Downloads/
+ffmpeg -i `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4` -q:a 0 -map a story.mp3
+ffmpeg -i `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4` -vn story.mp3
+ffmpeg -i `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4`  story.mp3
+ffmpeg -i `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4` -b:a 192K -vn story.mp3
+ls
+file `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4`
+rm `Kemeny Farok es Sz k Punci Alomszex Pornhub com(1).ksx3q-Hg.mp4.part`
+rm `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4`
+rm `Kemeny Farok es Sz k Punci Alomszex Pornhub com(1).mp4`
+ls
+firefox `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4`
+rm `Kemeny Farok es Sz k Punci Alomszex Pornhub com.mp4`
+ls
+ffmpeg -i `Kemény farok és szűk punci - Álomszex.mp4` -vn story.mp3
+ls
+rm `Kemény farok és szűk punci - Álomszex.mp4`
+ls
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+mv ScriptHookV.dll ScriptHookV.dll.noload
+ls
+cd Development/
+ls
+cd patmatch/
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+hx .
+cargo r 
+sudo bleachbit
+pacman -Q |grep sdl
+cd Videos/
+ls
+cd Videos/
+ls
+mv Leon.The.Professional.1994.REMASTERED.EXTENDED.1080p.BluRay.x265-RARBG/ "Leon The Professional"
+ls
+cd `Leon The Professional/`
+ls
+cd Downloads/
+ls
+rm story.mp3
+ls
+mkdir java-gameloop
+cd java-gameloop/
+unzip ../beadandó3-1.zip
+ls
+cd ..
+ls
+cd java-gameloop/
+ls
+ls `nyers fileok/`
+cd forráskód/
+ls
+cd Beadnado3/
+ls
+cat pom.xml
+ls target/
+ls
+cd /mnt/sdb1/SteamLibrary/steamapps/common/
+ls
+cd src/
+ls
+cd test/
+ls
+cd java/
+ls
+cd ..
+ls
+cd main/
+ls
+cd java/
+ls
+cat RegistrationForm.java
+cd org/
+ls
+cd example/
+ls
+cat Main.java
+cd Documents/
+ls
+cd ..
+cd Downloads/
+ls
+rm beadandó3-1.zip
+ls
+mkdir scripthook
+cd scripthook/
+és
+ls
+unzip ../ScriptHookV_1.0.2845.0.zip
+ls
+cd bin
+ls
+mv ScriptHookV.dll `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/ScriptHookV.dll`
+cd `/mnt/sdb1/LutrisLibrary/GTAV/drive_c/Program Files/Rockstar Games/Grand Theft Auto V/`
+ls
+rm ScriptHookV.dll.noload
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.63.0
+sudo bleachbit
+htop
+lscpu
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.63.0
+rustup toolchain list
+rustup toolchain remove 1.65.0
+hx --version
+cd Downloads/
+ls
+rm ScriptHookV_1.0.2845.0.zip
+rm -rf scripthook/
+ls
+mupdf -I document.pdf
+rm document.pdf
+ls
+rm -rf java-gameloop/
+ls
+mupdf -IC 02_AnIIF-Ea_2023_tavasz.pdf
+locate mupdf
+yay -S llpp; yay -R mupdf
+mupdf -I 02_AnIIF-Ea_2023_tavasz.pdf
+llpp 02_AnIIF-Ea_2023_tavasz.pdf
+cat ../.config/alacritty/alacritty.yml
+llpp 02_AnIIF-Ea_2023_tavasz.pdf
+firefox 02_AnIIF-Ea_2023_tavasz.pdf
+htop
+llpp 02_AnIIF-Ea_2023_tavasz.pdf
+ls -a
+cd .config/
+cd /usr/share/fonts/TTF
+ls
+ls | find JetBrains
+ls | grep JetBrains
+ls | find JetBrains
+hx llpp.conf
+cd
+dotfiles status
+dotfiles add ~/.config/llpp.conf
+dotfiles status
+dotfiles commit -m "llpp config"
+dotfiles push
