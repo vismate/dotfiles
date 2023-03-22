@@ -25,6 +25,7 @@ C-space = "completion"
 "esc" = ["collapse_selection", ":w"]
 "C-r" = ":sh cargo run --release"
 "C-d" = ":sh cargo run"
+"C-v" = ":insert-output xclip -o"
 
 [keys.select]
 "esc" = ["collapse_selection", "normal_mode", ":w"]
