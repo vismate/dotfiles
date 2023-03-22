@@ -3740,3 +3740,122 @@ dotfiles push
 dotfiles stash
 cat .config/llpp.conf
 hx .config/llpp.conf
+dotfiles stash
+cd Documents/
+hx .
+llpp (xplr) &
+firefox
+bleachbit
+bleachbit;
+which llpp
+llpp
+llpp;
+cd Documents/
+hx --health
+pdflatex --help
+cd Documents/
+pdflatex doc.tex
+ls
+rm doc.aux doc.log
+llpp doc.pdf
+pdflatex doc.tex
+ls /usr/bin | grep llpp
+llpp.inotify 
+cd Documents/
+pdflatex doc.tex
+cd Documents/
+pdflatex doc.tex
+hx doc.tex
+ls
+rm doc.*
+ls
+llpp -gc
+cd Downloads/
+ls
+rm *.pdf
+cd Downloads/
+ls
+rm ea03.pdf
+ls
+mkdir os
+cd os
+unzip ../rakopsys.zip
+ls
+cat text.txt
+hexedit
+hexdump text.txt
+hx main.c
+clang main.c
+gcc main.c
+./a.out
+ls
+./a.out text.txt
+cat text.txt
+./a.out text.txt
+cat text.txt
+cd ..
+rm -rf os
+rm rakopsys.zip
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+cd Documents/
+ls
+cat todos.md
+ rm todos.md
+ls
+rm user_story.md
+ls
+cd ..
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+sudo bleachbit
+cd Dowb
+cd Dow
+ls
+unzip Export_D7b1a9e3766bb7e4646fe589c7a5a62b0.zip
+ls
+rm Export_D7b1a9e3766bb7e4646fe589c7a5a62b0.zip Page_1.png Page_2.png
+ls
+unzip Export_D9af6922396ee582e51709169f8a17d54.zip
+ls
+cd ..
+rm `2023-03-13-20:48:19-screenshot.png`
+cd Development/
+cargo new bvy
+cd bcy
+cd bvy
+cd Development/bvy
+cargo r
+cd ..
+rm -rf --bvy
+rm -rf bvy
+ls
+cd Development/
+ls
+cd algo_graph/
+ls
+cargo r --example bfs
+:q
+cd ..
+lw
+ls
+cd Documents/
+ls
+hx adatb1_relalg_max.md
+pandoc adatb1_relalg_max.md --from gfm -V geometry:margin=1in -o adatb1_relalg_max.pdf
+ls
+llpp adatb1_relalg_max.pdf
+hx adatb1_relalg_max.md
+pandoc adatb1_relalg_max.md --from gfm -V geometry:margin=1in -o adatb1_relalg_max.pdf
+llpp adatb1_relalg_max.pdf
+hx adatb1_relalg_max.md
+pandoc adatb1_relalg_max.md --from gfm -V geometry:margin=1in -o adatb1_relalg_max.pdf
+llpp adatb1_relalg_max.pdf
+hx adatb1_relalg_max.md
+pandoc adatb1_relalg_max.md --from gfm -V geometry:margin=1in -o adatb1_relalg_max.pdf
+llpp adatb1_relalg_max.pdf
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+cd Documents/
+llpp adatb1_relalg_max.pdf
+sudo pacman -S xclip
+hx
+dotfiles status
