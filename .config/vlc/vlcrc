@@ -665,10 +665,10 @@ freetype-font=Noto Sans
 freetype-monofont=Noto Sans Mono
 
 # Font size in pixels (integer)
-freetype-fontsize=32
+freetype-fontsize=72
 
 # Relative font size (integer)
-freetype-rel-fontsize=20
+freetype-rel-fontsize=16
 
 # Text opacity (integer)
 #freetype-opacity=255

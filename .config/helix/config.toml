@@ -13,6 +13,15 @@ bufferline = "multiple"
 [editor.cursor-shape]
 insert = "bar"
 
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.statusline]
+right = ["version-control", "diagnostics", "selections", "position", "file-encoding"]
+
 [keys.insert]
 C-space = "completion"
 "esc" = ["normal_mode", ":w"]

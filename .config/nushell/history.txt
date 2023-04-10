@@ -3859,3 +3859,675 @@ llpp adatb1_relalg_max.pdf
 sudo pacman -S xclip
 hx
 dotfiles status
+dotfiles commit -a -m "xclip integraion into helix"
+dotfiles push
+llpp -gc
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+cd Development/
+cargo new rspdf
+cd rspdf
+cargo add pdfium-render minifb
+sudo pacman -S pdfium
+pacman -Q |grep sdl
+pacman -Q |grep pdf
+pacman -Q |grep libpdfium
+cd Development/rspdf/
+tar
+tar -x ~/Downloads/pdfium-v8-linux-x64.tgz
+tar -fx ~/Downloads/pdfium-v8-linux-x64.tgz
+tar -x ~/Downloads/pdfium-v8-linux-x64.tgz
+tar zxvf ~/Downloads/pdfium-v8-linux-x64.tgz
+ls
+rm -rf include/ src/ args.gn PDFiumConfig.cmake LICENSE VERSION
+ls
+ls lib
+mv lib/libpdfium.so libpdfium.so
+ls
+rm -rf lib/
+ls
+mkdir src
+cp Documents/adatb1_relalg_max.pdf Development/rspdf/doc.pdf
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+rustup update;
+rustup toolchain default stable
+rustup toolchain 
+rustup default
+rustup default stable
+cargo r
+rustup toolchain remove stable
+rustup default beta
+cargo r
+rustup toolchain remove beta
+rustup toolchain list
+rustup default nightly-2023-02-21-x86_64
+cargo r
+rustup default nightly
+rustup toolchain list
+rustup toolchain remove nightly-2023-02
+rustup toolchain remove nightly-2023-02-21
+rustup toolchain list
+cargo r --release
+hx .
+cargo r
+hx .
+cargo r
+qpdf
+hx .
+cargo remove pdfium_render
+hx .
+cargo remove pdfium-render
+cargo add mupdf
+hx .
+cargo r
+pacman -Q |grep libclang
+pacman -Q |grep clang
+sudo pacman -S libclang
+sudo pacman -S clang
+pacman -Q |grep clang
+pacman -Q |grep libclang
+cargo r
+hx .
+cargo r
+cd Development/rspdf/
+cargo r
+cargo clean
+cargo r
+llpp doc.pdf
+hx .
+cargo r
+rm -rf ~/.cargo/registry/index/*
+cargo r
+rm -rf ~/.cargo/registry/cache/
+cargo r
+hx .
+llpp doc.pdf
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+xplr .
+hx .
+xplr .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+ls
+hx .
+cargo r
+ls
+hx .
+cargo r
+hx .
+cargo r
+feh q.png
+hx .
+feh q.png
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+feh q.png
+cp Downloads/02_AnIIF-Ea_2023_tavasz.pdf Development/rspdf/doc.pdf
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+cd Development/rspdf/
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cd Development/rspdf/
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+mv doc.pdf doc1.pdf
+ls
+cargo r
+mv ~/Downloads/pkpadmin,+529-2711-1-CE.pdf doc.pdf
+ls
+cargo r
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+llpp doc.pdf
+hx .
+llpp doc.pdf
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+llpp doc.pdf
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+llpp doc.pdf
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd Development/rspdf/
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+llpp doc.pdf
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+llpp doc.pdf
+cargo r --release
+cp ~/Downloads/A17_FlightPlan.pdf doc.pdf
+cargo r --release
+llpp doc.pdf
+cargo r --release
+llpp doc.pdf
+cargo r --release
+mv doc.pdf doc2.pdf
+cp ~/Downloads/mupdf_explored.pdf doc.pdf
+cargo r --release
+llpp doc.pdf
+cargo r --release
+llpp doc.pdf
+cargo r --release
+1
+cargo r --release
+cd Development/rspdf/
+cargo r --release
+llpp doc.pdf
+cd Development/rspdf/
+cargo r --release
+cd Development/rspdf/
+cargo r --release
+sudo pacman -S minecraft
+sudo pacman -S minecraft-launcher
+yay -S minecraft-launcher
+yay -R minecraft-launcher
+ls -
+ls -a
+rm -rf .minecraft/
+find minecraft
+find "minecraft"
+locate "minecraft"
+locate "mojang"
+locate "1_20"
+locate "20"
+sudo pacman -R jre-openjdk
+sudo pacman -S jre-openjdk
+yay -S minecraft-launcher
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+yay
+sudo pacman -R jre-openjdk
+yay -S minecraft-launcher
+yay -R minecraft-launcher
+sudo pacman -R jre-openjdk
+rm -rf .minecraft/
+ls
+sudo pacman -Qtdq | sudo pacman -Rns -
+ls
+cd Downloads/
+ls
+xplr .
+cd ../Videos/
+ls
+mkdir Grafika_Ea
+cd Grafika_Ea/
+unzip ~/Downloads/Előadás-felvételek.zip
+ls
+move El┼Сad├бs-felv├йtelek/* .
+mv El┼Сad├бs-felv├йtelek/* .
+ls
+rm -rf El┼Сad├бs-felv├йtelek/
+ls
+cd Videos/Grafika_Ea/
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+sudo pacman -Qtdq | sudo pacman -Rns -
+sudo bleachbit
+cd Development/
+ls
+cd rspdf
+cargo r --release
+cd ..
+mv rspdf old_rspdf
+ls
+cargo new rspdf
+cd rspdf/
+cargo add eframe
+hx .
+cargo run
+hx .
+ls
+rm `ctx.layer_painter(LayerId::new(egui::Order::Background,`
+ls
+hx .
+cargo run
+hx .
+cargo run
+cd ..
+rm -rf rspdf/
+cargo new rspdf
+cd rspdf/
+cargo add egui-miniquad miniquad tracing tracing_subscriber
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+rm -rf rspdf/
+cd ..
+rm -rf rspdf/
+cd Development/
+ls
+vd old_rspdf/
+cd old_rspdf/
+cargo r
+llpp doc.pdf
+llpp --help
+cd Development/
+cargo new rspdf
+cd rspdf/
+cargo add three-d -F window -F egui_gui
+cargo add three-d -F window -F egui-gui
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+cd Development/rspdf/target/release/
+ls
+strip
+strip rspdf
+ls
+which llpp
+ls /usr/bin | grep llpp
+cd Videos/
+ls
+ls Grafika_Ea/
+cd Videos/
+ls
+cd ARDB
+cd
+cd Downloads/
+ls
+cd ..
+mv Downloads/Ted.2012.UNRATED.1080p.BluRay.x265-RARBG/ Videos
+ls
+ls Downloads/
+cd Videos/
+ls
+cd Ted.2012.UNRATED.1080p.BluRay.x265-RARBG/
+ls
+cd
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+hx .
+hx .config/nushell/env.nu
+hx .
+hx .config/nushell/config.nu
