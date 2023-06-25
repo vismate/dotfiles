@@ -4531,3 +4531,2123 @@ hx .
 hx .config/nushell/env.nu
 hx .
 hx .config/nushell/config.nu
+dotfiles commit -a -m "helix and nushell changes"
+dotfiles push
+nu
+nu
+nu
+nu
+nu
+cd Development/
+ls
+cd rspdf/
+cargo run --release
+hx .
+cargo run --release
+cargo add three-d-asset
+cargo run --release
+cargo add tokio -F macros -F rt-multi-thread
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx shader.frag
+cargo run --release
+mv shader.frag src/shader.frag
+cargo run --release
+hx .
+cargo update
+hx .
+cargo update
+cargo run --release
+hx .
+cd Development/rspdf/
+mv `2023-04-10-21:04:05-screenshot.png` texture.png
+hx .
+cargo run --release
+cargo add three-d-asset -F reqwest
+cargo run --release
+cargo add three-d-asset -F reqwest png
+cargo add three-d-asset -F reqwest -F png
+cargo run --release
+cd ..
+rm -rf rspdf/
+cd
+rm texture.png
+ssh-keygen
+ls -a
+cd Documents/
+ls
+llpp adatb1_relalg_max.pdf
+cd Development/
+cd .
+cd ..
+cd Downloads/
+ls
+firefox DER-TABL.pdf
+ls
+rm "[01]*.pdf"
+rm *.pdf
+ls
+cd Downloads/
+ls
+firefox combinepdf.pdf
+cd Downloads/
+ls
+firefox `Untitled document.pdf`
+cd Documents/
+ls
+hx anal2zh1.md
+cat adatb1_relalg_max.md
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+cat anal2zh1.md
+hx adatb1_relalg_max.md
+pandoc -s -i anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc -s -i anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md -o anal2zh1.pdf
+pandoc -f markdown-raw_tex anal2zh1.md -o anal2zh1.pdf
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o -H \usepackage{mathtools} anal2zh1.pdf
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc anal2zh1.md --from gfm -V geometry:margin=1in -o anal2zh1.pdf
+pandoc -s anal2zh1.md -f markdown -V geometry:margin=1in -o anal2zh1.pdf
+hx anal2zh1.md
+pandoc -s anal2zh1.md -f markdown -V geometry:margin=1in -o anal2zh1.pdf
+ls
+llpp anal2zh1.pdf
+hx anal2zh1.md
+pandoc -s anal2zh1.md -f markdown -V geometry:margin=1in -o anal2zh1.pdf
+firefox anal2zh1.pdf
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+sudo bleachbit
+cd Downloads/
+ls
+firefox `Programtervező informatikus BSc 2018, Szoftvertervező (B) mob. ablak (2023 január).pdf`
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+sudo bleachbit
+cd Development/
+cargo new mlnet
+hx mlnet
+cargo r
+cd mlnet
+cargo r
+sudo pacman -S arrayfire
+sudo pacman -R arrayfire
+sudo pacman -Qtdq | sudo pacman -Rns -
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+cd Development/mlnet/
+hx .
+cargo r
+ls
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+cd Development/mlnet/
+hx .
+cargo r
+hx .
+cargo r
+ls
+hx .
+cargo r
+ls
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+ls
+hx .
+cargo r --release
+hx .
+cargo r --release
+ls
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+ls
+hx .
+ls
+cargo r --release
+ls
+hx .
+ls
+cargo r --release
+ls
+hx .
+ls
+cargo r --release
+ls
+hx .
+cargo r --release
+ls
+hx .
+ls
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+hls
+ls
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd Development/mlnet/
+cargo r --release
+hx .
+cargo r --release
+ls
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd Development/mlnet/
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd Development/mlnet/
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd Development/mlnet/
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cargo add colorous
+hx .
+cargo add colorous
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+ld
+ls
+rm data.svg
+rm data.png
+ls
+cd Development/mlnet/
+hx .
+cd Development/mlnet/
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+ls
+hx .
+rm losses.png
+cargo r --release
+ls
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cargo add minifb
+hx .
+cd Development/mlnet/
+cd ..
+mkdir mlnet2
+cp mlnet/* mlnet2/
+cp -r mlnet/* mlnet2/
+ls
+cd mlnet2/
+ls
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+cd Development/mlnet2/
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cd ..
+cd mlnet/
+hx .
+cd ..
+cd mlnet2/
+hx .
+cd mlnet2/
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx index.html
+firefox index.html
+hx index.html
+cat index.html
+hx index.html
+rm index.html
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+rustup toolchain list
+cd Development/mlnet2/
+cargo r --release
+cd Development/mlnet2/
+cargo r --release
+cd Development/mlnet2/
+git remote add origin https://github.com/vismate/mlnet2.git
+git branch -M main
+git push -u origin main
+git commit -m "initial commit"
+git add *
+git status
+git rm --cached *.pnf
+git rm --cached *.png
+git status
+rm *.png
+ls
+git status
+git push -u origin main
+git status
+git commit -m "initial commit"
+git push -u origin main
+cd Downloads/
+ls
+llpp ea09.pdf
+cd Downloads/
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+cd Development
+mkdir osmock
+cd osmock
+cd Development/osmock/
+clang
+clang main.c; ./a.out
+cd Development/osmock/
+cd Documents/
+ls
+hx graphics_shortnotes.md
+pandoc -s graphics_shortnotes.md -f markdown -V geometry:margin=1in -o graphics_shortnotes.pdf
+llpp graphics_shortnotes.pdf
+tex
+rm graphics_shortnotes.*
+ls
+mkdir graphics_shortnotes
+cd graphics_shortnotes/
+hx graphics_shortnotes.tex
+hx --health
+sudo pacman -S texlab
+hx --health | grep latex
+latexpdf
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+ls
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+llpp graphics_shortnotes.pdf
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+llpp --gc
+llpp -gc
+hx .
+llpp graphics_shortnotes.pdf
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+ls images/
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+sudo pacman -S texlive-extra
+sudo pacman -S texlive-latexextra
+llpp graphics_shortnotes.pdf
+hx .
+sudo pacman -S texlive-latexextra
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+ls
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+llpp graphics_shortnotes.pdf
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+cd Downloads/
+firefox Grafika_feladatok.pdf
+firefox graphics_shortnotes.pdf
+sudo pacman -Qtdq | sudo pacman -Rns -
+yay; yay -S helix-git rust-analyzer-git; rustup update; rustup toolchain remove 1.65.0
+rustup component add rust-analyzer
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+sudo bleachbit
+cd Documents/
+ls
+cd graphics_shortnotes/
+ls
+llpp graphics_shortnotes.pdf
+hx .
+pdflatex graphics_shortnotes.tex
+cd graphics_shortnotes/
+cd Documents/
+cd graphics_shortnotes/
+ls
+cd Documents/
+ls
+llpp anal2zh1.pdf
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+cd Development/
+ls
+git clone https://github.com/vismate/soft.git
+cd soft
+ls
+hx .
+cargo r --release
+sudo pacman -S cmake
+cargo r --release
+hx .
+rustup toolchain list
+cargo r --release
+sudo pacman -S libsdl2
+sudo pacman -S sdl2
+sudo pacman -S sdl2_gfx
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+hx .
+cargo r --release
+ls
+hx save.json
+hx .
+cargo r --release
+rm save.json
+cargo r --release
+hx .
+cargo r --release
+cd Development/soft
+cargo r --release
+cd Development/soft
+cargo r --release
+cargo flamegraph
+ls
+cd Development/soft
+cargo r --release
+cd Development/soft
+cargo r --release
+cd Development/soft
+cargo r --release
+hotp
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+cd Downloads/
+cc valami.c
+./a.out
+hx valami.c
+./a.out
+hx valami.c
+./a.out
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+./a.out
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+rm a.out
+cc valami.c
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc valami.c
+./a.out
+hx valami.c
+cc pipe.c
+./a.out
+hx pipe.c
+hx valami.c
+hx pip
+cd Downloads/
+hx `valami(1).c`
+cc `valami(1).c`
+./a.out
+hx `valami(1).c`
+cc `valami(1).c`
+./a.out
+hx `valami(1).c`
+cc `valami(1).c`
+./a.out
+cc `valami(1).c`
+hx `valami(1).c`
+cc `valami(1).c`
+hx `valami(1).c`
+./a.out
+hx `valami(1).c`
+cc `valami(1).c`
+./a.out
+hx pipe.c
+cc `valami(1).c`
+cc pipe.c
+./a.out
+cd Downloads/
+hx `valami(1).c`
+cc `valami(1).c`
+./a.out
+hx `valami(1).c`
+cc `valami(1).c`
+hx `valami(2).c`
+cc `valami(2).c`
+./a.out
+llpp
+cd /usr/share/fonts/TTF
+ls
+hx .config/llpp.conf
+llpp
+cd Documents/
+hx OprendZH-2016
+hx OprendZH-2016.md
+pandoc -s OprendZH-2016.md -f markdown -V geometry:margin=1in -o oprendZH-2016.pdf
+llpp oprendZH-2016.pdf
+hx OprendZH-2016.md
+pandoc -s OprendZH-2016.md -f markdown -V geometry:margin=1in -o oprendZH-2016.pdf
+llpp oprendZH-2016.pdf
+cd ../Downloads/
+cd Development/
+ls
+cd osmock/
+ls
+man close
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+./a.out
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+./a.out
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+man mq_receive
+man sem_wait
+ls /
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx minta.c
+cc inta.c -lrt
+cc minta.c -lrt
+./a.out
+hx .
+./a.out
+hx .
+cc minta.c -lrt
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+hx .
+cc main.c -lrt
+./a.out
+sudo bleachbit 
+cd Development/
+ls
+cd Development/
+ls
+mkdor osbead2
+mkdir osbead2
+cd osbead2/
+tar zxvf ~/Downloads/bead-y8td56.tar.gz
+ls
+./build.sh
+./run.sh
+hx build.sh
+cd Development/
+cd osbead2/
+man memcp
+hx .
+./run.sh
+hx .
+./run.sh
+hx .
+./run.sh
+hx .
+./run.sh
+hx .
+./run.sh
+hx .
+./run.sh
+hx .
+./run.sh
+hx .
+./run.sh
+./run.sh list-by-person
+hx .
+./run.sh list-by-person
+hx .
+./run.sh list-by-person
+hx .
+./run.sh list-by-person
+hx .
+./run.sh list-by-person
+hx .
+./run.sh list-by-person
+cd Development/osbead2/
+hx .
+./run.sh current-day
+hx .
+./run.sh current-day
+hx .
+./run.sh current-day
+hx .
+./run.sh current-day
+./run.sh current-day sd
+./run.sh current-day
+./run.sh help
+hx .
+./run.sh current-day jk
+cd Downloads/
+man pause
+hx .
+./run.sh next-day
+cd Development/osbead2/
+./run.sh next-day
+cd Development/osbead2/
+hx -
+hx .
+./run.sh next-day
+./run.sh current-day
+./run.sh next-day
+hx .
+./run.sh next-day
+./run.sh list-by-person
+./run.sh list-by-day
+./run.sh next-day
+./run.sh current-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+target/main
+target/main next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+target/main next-day
+hx .
+./run.sh next-day
+target/main next-day
+hx .
+./run.sh next-day
+target/main next-day
+hx .
+./run.sh next-day
+target/main next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+./run.sh list-by-day
+./run.sh current-day
+./run.sh next-day
+./run.sh current-day
+./run.sh next-day
+hx .
+./run.sh next-day
+./run.sh current-day
+./run.sh next-day
+./run.sh current-day
+./run.sh next-day
+./run.sh current-day
+./run.sh next-day
+./run.sh current-day
+./run.sh next-day
+./run.sh current-day
+man itoa
+hx .
+./run.sh current-day
+./run.sh next-day
+hx .
+./run.sh next-day
+hx .
+./run.sh next-day
+rm -rf feladat.md
+hx .
+./run.sh current-day
+tar -zcvf ~/bead2-y8td56.tar.gz
+tar -zcvf ~/bead2-y8td56.tar.gz .
+cd Downloads/
+ls
+cd macskafogo-1986.1080p.-hdtv.x-264.-eng.-rus.-hun.-est.-lat.-lit/
+ls
+cd Downloads/
+ls
+mv macskafogo-1986.1080p.-hdtv.x-264.-eng.-rus.-hun.-est.-lat.-lit/ ~/Videos/
+ls
+cd Videos/
+ls
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+cd Development/osbead2/
+cd Development/s
+ls
+cargo r --release
+hx .
+cargo r --release
+cd Development/s
+ls
+cd Development/osbead2/
+cd Development/
+ls
+mkdir oszh
+cd oszh
+ls
+mkdir zh
+mkdir help
+cd help
+cp ../../osmock/main.c .
+ls
+mkdir bead
+cd bead
+cp -r ../../../osbead2/* .
+ls
+cd ..
+cd zh
+ls
+cd Development/oszh/zh/
+ls
+cc main.c -lrt
+cc main.c -lrt; ./a.out
+cc main.c -lrt; ./a.out "Oxford Circus" 17
+cat main.c
+cc main.c -lrt; ./a.out "Oxford Circus" 17
+cat main.c
+cc main.c -lrt; ./a.out "Oxford Circus" 17
+cd Downloads/
+ls
+cd Development/oszh/zh/
+cc main.c -lrt; ./a.out "Oxford Circus" 17
+hx .
+cc main.c -lrt; ./a.out "Oxford Circus" 17
+cp `~/Downloads/main(2).c` .
+ls
+cc main(2).c -lrt; ./a.out "Oxford Circus" 17
+clang main(2).c -lrt; ./a.out "Oxford Circus" 17
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+cd Development/
+cargo new --lib float_components
+cd float_components/
+hx .
+cargo test -- --nocapture
+hx .
+cd ..
+rm -rf float_components/
+sudo bleachbit 
+shutdown
+ls
+rm -rf biz2/
+cd Downloads/
+ls
+cd Downloads/
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+sudo pacman -S gitui
+cd Development/
+ls
+cd mlnet2
+ls
+gitui
+cd ..
+cd vason
+gitui
+cd Development/
+ls
+mkdir cg
+cd cg
+ls
+tar -x ~/Downloads/geocentric-y8td56.tar.gz
+tar -xf ~/Downloads/geocentric-y8td56.tar.gz
+ls
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+ls OGLPack/
+ls
+mkdir bead2
+cd bead2
+unzip ~/Downloads/01_OGLBase.zip
+ls
+cd 01_OGLBase/
+ls
+cd ..
+ls
+mv `01_OGLBase/` Collide
+ls
+cd Collide/
+ls
+mv `01_OGLBase/` Collide
+ls
+rm `01_OGLBase.sln`
+rm -rf x64/
+ls
+cd Collide/
+ls
+rm *.vcxproj.*
+ls
+rm *.vcxproj
+ls
+rm skybox.*
+ls
+rm -rf x64/
+ls
+ls assets
+ls
+rm -rf assets/
+ls
+hx .
+sudo pacman -S glew
+sudo pacman -S glm
+sudo pacman -S sdl2_opengl
+sudo pacman -S sdl_opengl
+cd Development/cg/bead2/Collide/
+ls
+cp ../../CMakeLists.txt .
+ls
+mkdir build
+cd build/
+cmake ..; make; ./CG_PROJ
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+cmake ..; make; ./CG_PROJ
+sudo pacman -S sdl_image
+cmake ..; make; ./CG_PROJ
+cd Development/cg/bead2/Collide/
+ls
+cd build/
+cmake ..; make; ./CG_PROJ
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+cmake ..; make; ./CG_PROJ
+pkg-config sdl2
+cd ..
+cd Development/cg/bead2/Collide/
+ls
+cd build/
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+cmake ..; make; ./CG_PROJ
+ls OGLPACK_PATH
+ls $env.OGLPAVK_PATH
+ls $env.OGLPACK_PATH
+cmake ..; make; ./CG_PROJ
+sudo pacman -S sdl2_image
+sudo pacman -R sdl_image
+hx ../CMakeLists.txt
+cmake ..; make; ./CG_PROJ
+cd Development/cg/bead2/Collide/
+ls
+cd Collide/
+ls
+hx .
+cd ..
+ls
+hx .
+cd Collide/
+ls
+hx 
+hx ,.
+ls
+cd Development/cg/bead2/Collide/
+ls
+cd build/
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+cmake ..; make; ./CG_PROJ
+hx .
+cmake ..; make; ./CG_PROJ
+ls Downloads/
+cmake ..; make; ./CG_PROJ
+cargo install wiki-tui
+cargo remove wiki-tui
+cargo uninstall wiki-tui
+rustup toolchain list
+cmake ..; make; ./CG_PROJ
+cd ..
+ls
+rm -rf build
+ls
+ls ..
+cd ..
+ls
+tar -zcvf ~/bead2-y8td56.tar.gz .
+cd Development/cg/bead2/Collide/
+ls
+mkdir build
+cd build/
+cd Development/cg/bead2/Collide/
+ls
+cd Collide/
+cmake ..; make; ./CG_PROJ
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+cmake ..; make; ./CG_PROJ
+cd ..
+rm -rf build
+ls
+cd ..
+ls
+tar -zcvf ~/bead2-y8td56.tar.gz .
+cd Development/
+ls
+cd Downloads/
+ls
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+hx .
+hx .config/helix/languages.toml
+sudo pacman -R sdl_image
+sudo bleachbit 
+cd Documents/
+hx adatb1_zh2.sql
+ls
+rm bead2-y8td56.tar.gz
+ls
+cat wiki_tui.log
+cd Documents/
+ls
+cd ..
+ls
+cd Downloads/
+ls
+mkdir szamelm-gyak
+cd szamelm-gyak/
+unzip ~/Downloads/OneDrive_1_5-23-2023.zip
+cd Development/
+cargo new foo
+cd foo
+hx .
+cd ..
+rm -rf foo
+paralell
+vlc .
+cs Development/
+cd Development/
+ls
+cd mlnet2/
+hx .
+cd ..
+cd old_rspdf/
+ls
+cargo r
+hx .
+cargo r
+hx .
+cargo r
+cd Development/
+ls
+cd old_rspdf/
+ls Downloads/
+cd Videos/
+ls
+cd Downloads/
+hx main.c
+ls
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+rustup update
+yay -S helix-git
+cd Development/
+ls
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+cargo new crwl
+cd crwl/
+hx .
+cargo add async-std surf html5ever url
+mkdir .cargo
+hx .cargo/config.toml
+cargo clean
+cargo build
+hx .
+cargo build
+cargo fix
+cargo fix --allow-dirty
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+hx .
+cargo run
+cargo run --release
+cd Development/crwl/
+ls
+cargo run
+hx .
+cargo run
+cargo add isahc
+hx .
+cargo run
+cargo run --release
+hx .
+cargo run --release
+cd Development/crwl/
+cargo add patricia_tree
+hx .
+cargo run
+hx .
+cargo run
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release
+hx .
+cargo run --release -- https://docs.rs/async-std/latest/async_std/sync/struct.Mutex.html
+hx .
+cargo run --release -- https://docs.rs/async-std/latest/async_std/sync/struct.Mutex.html
+hx .
+cargo run --release -- https://docs.rs/async-std/latest/async_std/sync/struct.Mutex.html
+cargo run --release -- https://google.com
+hx .
+cargo run --release -- https://google.com
+hx .
+cargo run --release -- https://google.com
+cargo run --release -- https://vismate.xyz
+cargo run --release -- https://docs.rs
+hx .
+cargo run --release -- https://docs.rs
+hx .
+cat src/main.rs
+hx .
+cargo flamegraph -- https://google.com
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://google.com
+hx .
+ls
+hx .
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://google.com
+ls
+hx .
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://google.com adsf
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://google.com 5
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://google.com 10
+more
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://wikipedia.org 10 | save links.txt
+ls
+more links.txt
+open links.txt
+rm links.txt
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://wikipedia.org 10 | save --raw links.txt
+ls
+more links.txt
+open links.txt
+cat links.txt
+bash
+ls
+more links.txt
+hx .
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://wikipedia.org 10
+ls
+sudo bleachbit 
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+sudo pacman -Sy archlinux-keyring endeavouros-keyring<\n>sudo pacman -Syu
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+cd Development/crwl/
+hx .
+cargo build
+hx .
+cargo build
+hx .
+cargo build
+cargo run --release -- https://docs.rs
+hx .
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+ls
+ls /
+ls /hom
+ls /home/
+sudo bleachbit 
+ls Downloads/
+cd Development/crwl/
+ls
+cargo build
+cargo update
+cargo build
+cargo clean
+cargo build
+hx .
+rustup update
+cargo build
+cat Cargo.toml
+hx .
+cargo build
+hx .
+cargo build
+hx .
+cargo tree
+cargo tree | save deps
+hx deps
+cargo remove async-std
+cargo add async-std -F async-io
+cargo remove async-std -F async-io
+hx .
+rm deps
+ls
+cargo build
+hx .
+cargo build
+hx .
+cargo build
+cargo tree | save deps
+hx deps
+hx .
+cargo build
+cargo clean
+cargo build
+cargo tree | save deps
+cargo tree | save deps -f
+hx .
+cargo add tokio
+hx .
+cargo add tokio -F sync
+hx .
+cargo add tokio -F rt
+cargo build
+hx .
+cargo add tokio -F tokio-macros
+cargo build
+cargo add tokio -F full
+cargo build
+hx .
+cargo build
+hx .
+cargo fix --allow-dirty
+hx .
+cargo build
+hx .
+cargo build
+cargo run --release -- https://docs.rs 10
+cargo run --release -- https://google.com 10
+cargo run --release -- https://google.com 5
+cargo run --release -- https://google.com 1
+cargo run --release -- https://google.com 2
+cargo run --release -- https://google.com 3
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://wikipedia.org 10
+ls
+rm perf.*
+ls
+rm deps
+ls
+rm links.txt
+ls
+sudo bleachbit 
+cd Downloads/
+ls
+du szamelm-gyak/
+cd ..
+ls
+du Development/
+cd Development/
+du .
+du 
+cd pinplot/
+ls
+du
+rm perf.*
+du target/
+cd target/
+ls
+cd release/
+ls
+du
+ls
+cd deps/
+ls
+du
+du .
+cd --
+cd ..
+cd debug/
+du
+:q
+cd ..
+cargo clean
+du
+cd .
+du .
+:q
+cd ..
+l
+ls
+du
+cd arduino-lcd/
+cargo clean
+ls
+cd ..
+ls
+du
+cd old_rspdf/
+cargo clean
+ls
+cd ..
+cd vason_sandbox/
+cargo clean
+ls
+cd ..
+cd mlnet2/
+cargo clean
+cd ..
+du
+du | sort physical
+du | sort 
+du | sort ?
+sort
+sort --help
+du
+cd crwl/
+cargo clean
+cd ..
+cd mlnet/
+cargo clean
+cd ..
+du
+cd soft/
+cargo clean
+ls
+rm perf.*
+sudo bleachbit 
+cd Development/
+cd cr
+ls
+cargo run --release -- https://google.com 3
+cargo run --release -- https://google.com 5
+sudo bleachbit 
+cd Development/crwl/
+hx .
+cargo run --release -- https://google.com 1
+tree
+cargo tree
+cargo run --release -- https://google.com 2
+cargo run --release -- https://google.com 0
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+cargo run --release -- https://google.com 2
+hx .
+cargo run --release -- https://google.com 2
+hx .
+cargo run --release -- https://google.com 2
+hx .
+cargo run --release -- https://google.com 2
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 1
+hx .
+cargo run --release -- https://google.com 0
+hx .
+cargo run --release -- https://google.com 0
+cargo run --release -- https://google.com 1
+cargo run --release -- https://google.com 3
+cd Development/crwl/
+htop
+ls
+cd Downloads/
+ls
+cat Jira.csv
+CARGO_PROFILE_RELEASE_DEBUG=true cargo flamegraph -- https://wikipedia.org 10
+ls
+cd Downloads/
+ls
+mkdir szamelmea
+cd szamelmea/
+ls
+unzip ~/Downloads/course_files_export.zip
+ls
+llpp `01/01h.pdf`
+hx ~/.config/llpp.conf
+hx --health
+sudo pacman -S cmake-language-server
+yay -S cmake-language-server
+hx --health
+ls
+cd Development/
+ls
+cd cg
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+ls
+cd bead2/
+ls
+hx .
+ls
+cd Collide/
+ls
+hx .
+cd Collide/
+ls
+llpp `01/01h.pdf`
+llpp `02/02h.pdf`
+llpp `03/03h.pdf`
+llpp `04/04h.pdf`
+cd Development/
+ls
+cd cg
+ls
+ls bead2/
+mkdir subdiv
+cd subdiv
+cd ..
+ls bead2/Collide/
+cd subdiv/
+mkdir subdiv
+cp ../../CMakeLists.txt .
+cp ../CMakeLists.txt .
+ls
+cd subdiv/
+cp -r ../../bead2/Collide/Collide/ .
+ls
+mv Collide/* .
+rm -rf Collide/
+ls
+rm FlashLight.hpp
+cd Development/cg
+ls
+cd Documents/
+hx grafika-bead-kérdések.md
+cd Documents/
+hx ~/.config/llpp.conf
+llpp `05/05h.pdf`
+llpp `06/06h.pdf`
+llpp `02/02h.pdf`
+llpp `03/03h.pdf`
+llpp `06/06h.pdf`
+llpp `07/07h.pdf`
+llpp `06/06h.pdf`
+llpp `07/07h.pdf`
+llpp `08/08h.pdf`
+llpp `03/03h.pdf`
+llpp `02/02h.pdf`
+llpp `08/08h.pdf`
+llpp `09/09h.pdf`
+llpp `10/10h.pdf`
+llpp `09/09h.pdf`
+llpp `10/10h.pdf`
+llpp `11/11h.pdf`
+llpp `10/10h.pdf`
+llpp `11/11h.pdf`
+llpp `12/12h.pdf`
+cd Videos/
+ls
+cd Development/cg/subdiv/subdiv/
+cat OBJLoader.cpp
+cd Development/cg/subdiv/subdiv/
+cat OBJLoader.cpp
+cd Development/cg/subdiv/
+ls
+és subdiv/
+ls subdiv/
+mkdir build
+cd build/
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+cmake ..; make; ./CG_PROJ
+pythin
+cmake ..; make; ./CG_PROJ
+cd Development/
+git clone https://github.com/yixinglu/cc-subdivision.git
+sudo pacman -S freeglut
+cd cc-subdivision/
+mkdir build
+cd build/
+cmake ..; make -j
+ls
+./ccsubdiv/
+ls
+./ccsubd ../../obj/cube.obj
+./ccsubd ../../obj/cube2-1.obj
+./ccsubd ../../obj/cube2.obj
+cd ..
+cd subdiv/build/
+cd ..
+hx .
+cd build/
+cmake ..; make -j
+cd ccsubdiv/
+ls
+./ccsubd ../../obj/cube2.obj
+./ccsubd ../../obj/cube0.obj
+./ccsubd ../../obj/cube.obj
+./ccsubd ../../obj/cube1.obj
+./ccsubd ../../obj/cube-1.obj
+./ccsubd ../../obj/cube2-1.obj
+cd ..
+rm -rf cc-subdivision/
+sudo pacman -R freeglut
+cmake ..; make; ./CG_PROJ
+hx grafika-bead-kérdések.md
+cat grafika-bead-kérdések.md
+cmake ..; make; ./CG_PROJ
+./CG_PROJ
+cmake ..; make; ./CG_PROJ
+llpp -gc
+cd Downloads/
+llpp BSc_EA_10_print.pdf
+llpp BSc_EA_10_print.pdf &
+llpp BSc_EA_10_print.pdf; llpp BSc_EA_11_print.pdf; llpp BSc_EA_12_print.pdf
+cd Downloads/
+ls
+llpp BSc_EA_12_Ell.pdf
+llpp BSc_EA_11_Ell.pdf
+llpp BSc_EA_10_Ell.pdf
+cd Development/cg/subdiv/
+ls
+cd subdiv/
+ls
+cd Development/cg/subdiv/
+ls
+cd build/
+let-env OGLPACK_PATH = '/home/vismate/Development/cg/OGLPack'
+cmake ..; make; ./CG_PROJ
+hx .
+ls
+rm HalfEdgeMesh::MeshLODManager
+cmake ..; make; ./CG_PROJ
+gtop
+cmake ..; make; ./CG_PROJ
+llpp
+cd Downloads/
+ls
+cmake ..; make; ./CG_PROJ
+hx .
+cmake ..; make; ./CG_PROJ
+cd ..
+ls
+tar -zcvf ~/bead-y8td56.tar.gz .
+cd build/
+cmake ..; make; ./CG_PROJ
+cd Development/cg/bead2/
+ls
+cd Collide/
+ls
+cd Collide/
+ls
+cat myFrag.frag
+cd ..
+ls
+cd subdiv
+ls
+mkdir assets
+mv cube-quads.obj assets/
+mv cube.obj assets/cube-tris.obj
+ls
+ls assets/
+cd assets/
+unzip ~/Downloads/gold_0002_c.zip
+ls
+cd ..
+ls
+cd ..
+ls
+cd build/
+cmake ..; make; ./CG_PROJ
+feh `2023-06-06-20:01:11-screenshot.png`
+cmake ..; make; ./CG_PROJ
+cd ..
+ls
+cd subdiv/
+ls
+cd assets/
+ls
+unzip ~/Downloads/fliesen_0014_c.zip
+ls
+feh fliesen_0014_c.jpg
+mv fliesen_0014_c.jpg tile.jpg
+ls
+cd ..
+cd build/
+cd Development/cg/bead2/
+ls
+cd Collide/
+ls
+cd Collide/
+ls
+cmake ..; make; ./CG_PROJ
+cd ..
+ls
+rm -rf build
+ls
+cd ..
+ls
+cd subdiv/
+tar -zcvf ~/subdiv-y8td56.tar.gz .
+cd Videos/
+ls
+ls Grafika_Ea/
+mkdir grafika_ea_current
+cd grafika_ea_current/
+unzip ~/Downloads/Recordings.zip
+cd Videos/
+cd grafika_ea_current/
+ls
+unzip ~/Downloads/Recordings(0).zip
+unzip ~/Downloads/Recordings(1).zip
+cd ..
+l
+ls
+rm -rf grafika_ea_current/
+rm -rf Grafika_Ea
+cd Videos/
+mkdir grafika_ea_current
+cd grafika_ea_current/
+unzip ~/Downloads/OneDrive_1_6-7-2023.zip
+cd
+cd Downloads/
+ls
+rm OneDrive_1_5-23-2023.zip
+rm OneDrive_1_6-7-2023.zip
+rm Recordings.zip
+rm `Recordings(1).zip`
+cd Videos/
+cd grafika_ea_current/
+ls
+unzip ~/Downloads/OneDrive_2_6-7-2023.zip
+ls
+cd Documents/
+cd Downloads/
+ls
+cd Downloads/
+ls
+hx graf2.md
+pandoc -s graf2.md -f markdown -V geometry:margin=1in -o graf2.pdf
+hx graf2.md
+pandoc -s graf2.md -f markdown -V geometry:margin=1in -o graf2.pdf
+llpp graf2.pdf
+ls
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+sudo bleachbit 
+cd Downloads/
+ls
+cd Documents/
+mkdor neural
+mkdir neural
+cd neural
+hx doc.tex
+pdflatex doc.tex
+ls
+llpp doc.pdf
+cd Documents/neural/
+llpp doc.pdf
+pdflatex doc.tex
+llpp doc.pdf
+pdflatex doc.tex
+llpp doc.pdf
+pdflatex doc.tex
+llpp doc.pdf
+cd Downloads/
+ls
+firefox ACFrOgDzTOYVIeyfE_V7HJNgoB0Q8lbecVeKFdF4-4Q447Zq8v46zxHmn2rD_oCUSnKg-rXAa9uwC1k9PC2O8UHytWo50Flx8SH9EFjTf8FoXQRJsyHZse80jeBzFqI=-1.pdf
+cd Documents/
+ls
+cd ..
+rm -rf neural/
+cd
+htop
+yay; yay -S helix-git; rustup update; rustup toolchain remove 1.65.0
+cd Downloads/
+ssh-keygen
+cat .ssh/dlabs.pub
+hx .ssh/config
+cat .config/nushell/config.nu
+cat .config/nushell/env.nu
+cat .config/helix/languages.toml
+cat .config/helix/config.toml
+ssh root@dlabs-build
+ls .config/helix/
+ssh -t root@dlabs-build
+ssh root@dlabs-build
+dotfiles status
