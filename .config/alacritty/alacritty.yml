@@ -1,3 +1,6 @@
+env:
+  TERM: xterm-256color
+
 ## Shell
 shell:
   program: /usr/bin/nu
@@ -6,7 +9,7 @@ shell:
 
 font:
   normal:
-    family: JetBrains Mono Nerd Font
+    family: JetBrains Mono
     style: medium
   size: 8.5
 
